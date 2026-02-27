@@ -1,6 +1,18 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&amp;family=DM+Mono:wght@300;400;500&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/><title>FinTech Frontier — Course (All Modules)</title><style>/* === index.html === */
-:root {
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FinTech Frontier — Commercial Banking Course</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+<style>
+/* Consolidated styles from all pages */
+
+  :root {
     --navy: #0a1628;
     --navy-mid: #112240;
     --navy-light: #1e3a5f;
@@ -603,8 +615,7 @@
     footer { padding: 2rem 1.5rem; flex-direction: column; gap: 1rem; text-align: center; }
   }
 
-/* === module1.html === */
-:root {
+  :root {
     --navy: #0a1628;
     --navy-mid: #112240;
     --navy-light: #1e3a5f;
@@ -994,8 +1005,7 @@
     .module-nav { flex-direction: column; }
   }
 
-/* === module2.html === */
-:root {
+  :root {
     --navy: #0a1628;
     --navy-mid: #112240;
     --navy-light: #1e3a5f;
@@ -1499,8 +1509,7 @@
     .case-result { gap: 1.5rem; }
   }
 
-/* === module3.html === */
-:root {
+  :root {
     --navy: #0a1628;
     --navy-mid: #112240;
     --navy-light: #1e3a5f;
@@ -1745,8 +1754,7 @@
     .ratio-table th, .ratio-table td { padding: 0.6rem 0.75rem; }
   }
 
-/* === module4.html === */
-:root {
+  :root {
     --navy: #0a1628;
     --navy-mid: #112240;
     --navy-light: #1e3a5f;
@@ -1973,8 +1981,7 @@
     .module-nav { flex-direction: column; }
   }
 
-/* === module5.html === */
-:root {
+  :root {
     --navy: #0a1628;
     --navy-mid: #112240;
     --navy-light: #1e3a5f;
@@ -2315,855 +2322,1182 @@
     .code-body { font-size: 0.72rem; }
   }
 
-
-/* === combined additions === */
+/* In-page anchor offset */
 .module-section { scroll-margin-top: 90px; }
+</style>
+</head>
+<body>
+<div id="top"></div>
 
-  .resource-card a, .tool-card a {
-    color: var(--gold);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
-  .resource-card a:hover, .tool-card a:hover { opacity: 0.9; }
-</style></head><body><div id="top"></div><nav>
-<a class="nav-logo" href="#top">FinTech<span>Frontier</span></a>
-<ul class="nav-links">
-<li><a href="#modules">Modules</a></li>
-<li><a href="#curriculum">Curriculum</a></li>
-<li><a href="#tools">Tools</a></li>
-<li><a href="#start">Get Started</a></li>
-</ul>
-</nav><section class="hero">
-<div class="hero-circle"></div>
-<p class="hero-eyebrow">// Commercial Banking × Technology</p>
-<h1>The <em>Future</em> of Banking Is Already Here</h1>
-<p class="hero-sub">A practical, no-jargon course for commercial bankers ready to master fintech, AI agents, and code — and use them to serve clients better.</p>
-<div class="hero-cta">
-<a class="btn-primary" href="#modules">Explore Modules</a>
-<a class="btn-secondary" href="#start">Start Learning</a>
+
+<nav>
+  <a href="#" class="nav-logo">FinTech<span>Frontier</span></a>
+  <ul class="nav-links">
+    <li><a href="#modules">Modules</a></li>
+    <li><a href="#curriculum">Curriculum</a></li>
+    <li><a href="#tools">Tools</a></li>
+    <li><a href="#start">Get Started</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-circle"></div>
+  <p class="hero-eyebrow">// Commercial Banking × Technology</p>
+  <h1>The <em>Future</em> of Banking Is Already Here</h1>
+  <p class="hero-sub">A practical, no-jargon course for commercial bankers ready to master fintech, AI agents, and code — and use them to serve clients better.</p>
+  <div class="hero-cta">
+    <a href="#modules" class="btn-primary">Explore Modules</a>
+    <a href="#start" class="btn-secondary">Start Learning</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-item">
+      <span class="stat-number">5</span>
+      <span class="stat-label">Core Modules</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">20+</span>
+      <span class="stat-label">Lessons & Labs</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">100%</span>
+      <span class="stat-label">Practical Focus</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">Free</span>
+      <span class="stat-label">Open on GitHub</span>
+    </div>
+  </div>
+</section>
+
+<section id="modules">
+  <div class="modules-header">
+    <div>
+      <p class="section-label">// Course Modules</p>
+      <h2 class="section-title">Five Pillars of the Modern Banker's Toolkit</h2>
+    </div>
+    <p class="section-body" style="max-width:300px; font-size:0.875rem;">Each module builds on the last — from understanding new fintech products to writing your own AI-powered workflows.</p>
+  </div>
+  <div class="modules-grid">
+    <a href="#module1" class="module-card">
+      <span class="module-num">MODULE 01</span>
+      <span class="module-icon">🏦</span>
+      <h3 class="module-title">The New Fintech Landscape</h3>
+      <p class="module-desc">A comprehensive tour of the products reshaping how businesses bank, borrow, and manage money.</p>
+      <ul class="module-topics">
+        <li>Embedded finance & BaaS platforms</li>
+        <li>Real-time payments (FedNow, RTP)</li>
+        <li>Digital lending & underwriting tech</li>
+        <li>Treasury management innovation</li>
+        <li>Crypto rails & stablecoins for corporates</li>
+      </ul>
+    </a>
+    <a href="#module2" class="module-card">
+      <span class="module-num">MODULE 02</span>
+      <span class="module-icon">🤖</span>
+      <h3 class="module-title">AI Agents in Banking</h3>
+      <p class="module-desc">How autonomous AI agents are being deployed across the banking value chain — and what it means for your role.</p>
+      <ul class="module-topics">
+        <li>What AI agents actually are (no hype)</li>
+        <li>Agentic workflows vs. traditional automation</li>
+        <li>Compliance & regulatory AI applications</li>
+        <li>Fraud detection & anomaly agents</li>
+        <li>Real bank deployment case studies</li>
+      </ul>
+    </a>
+    <a href="#module3" class="module-card">
+      <span class="module-num">MODULE 03</span>
+      <span class="module-icon">📊</span>
+      <h3 class="module-title">AI for Bankers: Biz Dev, Loans & Portfolios</h3>
+      <p class="module-desc">Put AI to work on your day-to-day: prospecting clients, reviewing credits, and managing risk.</p>
+      <ul class="module-topics">
+        <li>AI-assisted business development pipelines</li>
+        <li>Automated loan memo drafting</li>
+        <li>Portfolio monitoring dashboards</li>
+        <li>Spreading financial statements with AI</li>
+        <li>Client insight reports in minutes</li>
+      </ul>
+    </a>
+    <a href="#module4" class="module-card">
+      <span class="module-num">MODULE 04</span>
+      <span class="module-icon">🔗</span>
+      <h3 class="module-title">Banks × Fintech: The Road Ahead</h3>
+      <p class="module-desc">Strategic frameworks for understanding where fintech and commercial banking converge, compete, and collaborate.</p>
+      <ul class="module-topics">
+        <li>Partnership vs. build vs. buy models</li>
+        <li>Open banking & API ecosystems</li>
+        <li>Regulatory evolution (OCC, CFPB, Basel)</li>
+        <li>Fintech threat assessment framework</li>
+        <li>Positioning your bank for 2030</li>
+      </ul>
+    </a>
+    <a href="#module5" class="module-card">
+      <span class="module-num">MODULE 05</span>
+      <span class="module-icon">💻</span>
+      <h3 class="module-title">Learn to Code: Banker Edition</h3>
+      <p class="module-desc">No CS degree required. Learn just enough Python to automate tasks, build tools, and impress clients.</p>
+      <ul class="module-topics">
+        <li>Python basics for finance professionals</li>
+        <li>Automating Excel & data analysis</li>
+        <li>Building your first AI chatbot for clients</li>
+        <li>API calls: pulling live market data</li>
+        <li>Deploying simple tools on GitHub Pages</li>
+      </ul>
+    </a>
+  </div>
+</section>
+
+<section id="approach">
+  <p class="section-label">// Our Philosophy</p>
+  <h2 class="section-title">Built by Practitioners, For Practitioners</h2>
+  <div class="approach-grid">
+    <div class="approach-features">
+      <div class="feature-item">
+        <span class="feature-icon">⚡</span>
+        <div class="feature-text">
+          <h4>Immediately Actionable</h4>
+          <p>Every lesson ends with something you can use Monday morning — a prompt, a template, a tool, or a framework.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🎯</span>
+        <div class="feature-text">
+          <h4>Commercial Banking Lens</h4>
+          <p>We skip the consumer fintech noise. Everything is filtered through C&I lending, treasury, and relationship banking.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🧠</span>
+        <div class="feature-text">
+          <h4>No Prior Tech Experience Needed</h4>
+          <p>We meet you where you are. If you can build a DCF in Excel, you can learn to code and use AI agents.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🔓</span>
+        <div class="feature-text">
+          <h4>Fully Open Source</h4>
+          <p>Hosted on GitHub. Fork it, share it, contribute to it. Banking knowledge should be democratized.</p>
+        </div>
+      </div>
+    </div>
+    <div class="approach-visual">
+      <div class="terminal-bar">
+        <span class="terminal-dot d-red"></span>
+        <span class="terminal-dot d-yellow"></span>
+        <span class="terminal-dot d-green"></span>
+      </div>
+      <div class="terminal-code">
+        <span class="t-comment"># Module 5 — Lab Exercise</span><br>
+        <span class="t-comment"># Build a loan memo summary agent</span><br><br>
+        <span class="t-gold">import</span> anthropic<br>
+        <span class="t-gold">import</span> pandas <span class="t-gold">as</span> pd<br><br>
+        <span class="t-comment"># Load borrower financials</span><br>
+        df = pd.<span class="t-teal">read_excel</span>(<span class="t-green">"borrower_spreads.xlsx"</span>)<br><br>
+        client = anthropic.<span class="t-teal">Anthropic</span>()<br><br>
+        <span class="t-comment"># Generate credit memo draft</span><br>
+        response = client.messages.<span class="t-teal">create</span>(<br>
+        &nbsp;&nbsp;model=<span class="t-green">"claude-opus-4-6"</span>,<br>
+        &nbsp;&nbsp;messages=[{<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="t-green">"role"</span>: <span class="t-green">"user"</span>,<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="t-green">"content"</span>: summarize_financials(df)<br>
+        &nbsp;&nbsp;}]<br>
+        )<br><br>
+        <span class="t-teal">print</span>(response.content[<span class="t-gold">0</span>].text)<br>
+        <span class="t-comment"># ✓ Memo drafted in 4.2 seconds</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="curriculum">
+  <p class="section-label">// Learning Path</p>
+  <h2 class="section-title">A Structured 10-Week Journey</h2>
+  <p class="section-body">Move at your own pace or follow the suggested schedule. Each week pairs concepts with hands-on labs.</p>
+  <div class="timeline">
+    <div class="timeline-item">
+      <p class="timeline-week">Weeks 1–2</p>
+      <h3 class="timeline-title">Foundations: Fintech Products Deep Dive</h3>
+      <p class="timeline-desc">Map the fintech landscape relevant to commercial banking. Understand embedded finance, BaaS, real-time payments, and where your clients are already using these tools without telling you.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-week">Weeks 3–4</p>
+      <h3 class="timeline-title">AI Agents: What They Are & How Banks Deploy Them</h3>
+      <p class="timeline-desc">Demystify AI agents through real bank case studies. Learn the difference between copilots, assistants, and fully autonomous agents — and understand the compliance guardrails.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-week">Weeks 5–6</p>
+      <h3 class="timeline-title">Applying AI to Your Daily Work</h3>
+      <p class="timeline-desc">Hands-on labs: draft loan memos, build portfolio monitoring reports, automate client prep, and use AI to surface cross-sell opportunities from your existing book.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-week">Weeks 7–8</p>
+      <h3 class="timeline-title">Strategic Positioning: Banks & Fintech in 2030</h3>
+      <p class="timeline-desc">Analyze where the puck is going. Partnership models, API ecosystems, regulatory evolution, and how to advise clients navigating the fintech landscape.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-week">Weeks 9–10</p>
+      <h3 class="timeline-title">Coding for Bankers: Build Your First Tool</h3>
+      <p class="timeline-desc">Python from zero to useful. Write scripts that automate your workflow, pull live data via APIs, and build a simple client-facing tool you can actually share.</p>
+    </div>
+  </div>
+</section>
+
+<section id="tools">
+  <p class="section-label">// Technology Stack</p>
+  <h2 class="section-title">Tools You'll Learn & Use</h2>
+  <div class="tools-grid">
+    <div class="tool-card"><span class="tool-emoji">🐍</span><span class="tool-name">Python</span></div>
+    <div class="tool-card"><span class="tool-emoji">🤖</span><span class="tool-name">Claude API</span></div>
+    <div class="tool-card"><span class="tool-emoji">📓</span><span class="tool-name">Jupyter</span></div>
+    <div class="tool-card"><span class="tool-emoji">🐙</span><span class="tool-name">GitHub</span></div>
+    <div class="tool-card"><span class="tool-emoji">📊</span><span class="tool-name">Pandas</span></div>
+    <div class="tool-card"><span class="tool-emoji">🔌</span><span class="tool-name">REST APIs</span></div>
+    <div class="tool-card"><span class="tool-emoji">📈</span><span class="tool-name">Plaid / MX</span></div>
+    <div class="tool-card"><span class="tool-emoji">⚡</span><span class="tool-name">Zapier / n8n</span></div>
+    <div class="tool-card"><span class="tool-emoji">🗄️</span><span class="tool-name">SQL Basics</span></div>
+    <div class="tool-card"><span class="tool-emoji">🌐</span><span class="tool-name">HTML/CSS</span></div>
+  </div>
+</section>
+
+<div class="cta-banner" id="start">
+  <h2>Ready to Future-Proof Your Career?</h2>
+  <p>Join bankers who are learning to combine deep credit judgment with cutting-edge technology — the most valuable combination in the industry.</p>
+  <a href="#module1" class="btn-primary">Begin Module 1 →</a>
 </div>
-<div class="hero-stats">
-<div class="stat-item">
-<span class="stat-number">5</span>
-<span class="stat-label">Core Modules</span>
-</div>
-<div class="stat-item">
-<span class="stat-number">20+</span>
-<span class="stat-label">Lessons &amp; Labs</span>
-</div>
-<div class="stat-item">
-<span class="stat-number">100%</span>
-<span class="stat-label">Practical Focus</span>
-</div>
-<div class="stat-item">
-<span class="stat-number">Free</span>
-<span class="stat-label">Open on GitHub</span>
-</div>
-</div>
-</section><section id="modules">
-<div class="modules-header">
-<div>
-<p class="section-label">// Course Modules</p>
-<h2 class="section-title">Five Pillars of the Modern Banker's Toolkit</h2>
-</div>
-<p class="section-body" style="max-width:300px; font-size:0.875rem;">Each module builds on the last — from understanding new fintech products to writing your own AI-powered workflows.</p>
-</div>
-<div class="modules-grid">
-<a class="module-card" href="#module1">
-<span class="module-num">MODULE 01</span>
-<span class="module-icon">🏦</span>
-<h3 class="module-title">The New Fintech Landscape</h3>
-<p class="module-desc">A comprehensive tour of the products reshaping how businesses bank, borrow, and manage money.</p>
-<ul class="module-topics">
-<li>Embedded finance &amp; BaaS platforms</li>
-<li>Real-time payments (FedNow, RTP)</li>
-<li>Digital lending &amp; underwriting tech</li>
-<li>Treasury management innovation</li>
-<li>Crypto rails &amp; stablecoins for corporates</li>
-</ul>
-</a>
-<a class="module-card" href="#module2">
-<span class="module-num">MODULE 02</span>
-<span class="module-icon">🤖</span>
-<h3 class="module-title">AI Agents in Banking</h3>
-<p class="module-desc">How autonomous AI agents are being deployed across the banking value chain — and what it means for your role.</p>
-<ul class="module-topics">
-<li>What AI agents actually are (no hype)</li>
-<li>Agentic workflows vs. traditional automation</li>
-<li>Compliance &amp; regulatory AI applications</li>
-<li>Fraud detection &amp; anomaly agents</li>
-<li>Real bank deployment case studies</li>
-</ul>
-</a>
-<a class="module-card" href="#module3">
-<span class="module-num">MODULE 03</span>
-<span class="module-icon">📊</span>
-<h3 class="module-title">AI for Bankers: Biz Dev, Loans &amp; Portfolios</h3>
-<p class="module-desc">Put AI to work on your day-to-day: prospecting clients, reviewing credits, and managing risk.</p>
-<ul class="module-topics">
-<li>AI-assisted business development pipelines</li>
-<li>Automated loan memo drafting</li>
-<li>Portfolio monitoring dashboards</li>
-<li>Spreading financial statements with AI</li>
-<li>Client insight reports in minutes</li>
-</ul>
-</a>
-<a class="module-card" href="#module4">
-<span class="module-num">MODULE 04</span>
-<span class="module-icon">🔗</span>
-<h3 class="module-title">Banks × Fintech: The Road Ahead</h3>
-<p class="module-desc">Strategic frameworks for understanding where fintech and commercial banking converge, compete, and collaborate.</p>
-<ul class="module-topics">
-<li>Partnership vs. build vs. buy models</li>
-<li>Open banking &amp; API ecosystems</li>
-<li>Regulatory evolution (OCC, CFPB, Basel)</li>
-<li>Fintech threat assessment framework</li>
-<li>Positioning your bank for 2030</li>
-</ul>
-</a>
-<a class="module-card" href="#module5">
-<span class="module-num">MODULE 05</span>
-<span class="module-icon">💻</span>
-<h3 class="module-title">Learn to Code: Banker Edition</h3>
-<p class="module-desc">No CS degree required. Learn just enough Python to automate tasks, build tools, and impress clients.</p>
-<ul class="module-topics">
-<li>Python basics for finance professionals</li>
-<li>Automating Excel &amp; data analysis</li>
-<li>Building your first AI chatbot for clients</li>
-<li>API calls: pulling live market data</li>
-<li>Deploying simple tools on GitHub Pages</li>
-</ul>
-</a>
-</div>
-</section><section id="approach">
-<p class="section-label">// Our Philosophy</p>
-<h2 class="section-title">Built by Practitioners, For Practitioners</h2>
-<div class="approach-grid">
-<div class="approach-features">
-<div class="feature-item">
-<span class="feature-icon">⚡</span>
-<div class="feature-text">
-<h4>Immediately Actionable</h4>
-<p>Every lesson ends with something you can use Monday morning — a prompt, a template, a tool, or a framework.</p>
-</div>
-</div>
-<div class="feature-item">
-<span class="feature-icon">🎯</span>
-<div class="feature-text">
-<h4>Commercial Banking Lens</h4>
-<p>We skip the consumer fintech noise. Everything is filtered through C&amp;I lending, treasury, and relationship banking.</p>
-</div>
-</div>
-<div class="feature-item">
-<span class="feature-icon">🧠</span>
-<div class="feature-text">
-<h4>No Prior Tech Experience Needed</h4>
-<p>We meet you where you are. If you can build a DCF in Excel, you can learn to code and use AI agents.</p>
-</div>
-</div>
-<div class="feature-item">
-<span class="feature-icon">🔓</span>
-<div class="feature-text">
-<h4>Fully Open Source</h4>
-<p>Hosted on GitHub. Fork it, share it, contribute to it. Banking knowledge should be democratized.</p>
-</div>
-</div>
-</div>
-<div class="approach-visual">
-<div class="terminal-bar">
-<span class="terminal-dot d-red"></span>
-<span class="terminal-dot d-yellow"></span>
-<span class="terminal-dot d-green"></span>
-</div>
-<div class="terminal-code">
-<span class="t-comment"># Module 5 — Lab Exercise</span><br/>
-<span class="t-comment"># Build a loan memo summary agent</span><br/><br/>
-<span class="t-gold">import</span> anthropic<br/>
-<span class="t-gold">import</span> pandas <span class="t-gold">as</span> pd<br/><br/>
-<span class="t-comment"># Load borrower financials</span><br/>
-        df = pd.<span class="t-teal">read_excel</span>(<span class="t-green">"borrower_spreads.xlsx"</span>)<br/><br/>
-        client = anthropic.<span class="t-teal">Anthropic</span>()<br/><br/>
-<span class="t-comment"># Generate credit memo draft</span><br/>
-        response = client.messages.<span class="t-teal">create</span>(<br/>
-          model=<span class="t-green">"claude-opus-4-6"</span>,<br/>
-          messages=[{<br/>
-            <span class="t-green">"role"</span>: <span class="t-green">"user"</span>,<br/>
-            <span class="t-green">"content"</span>: summarize_financials(df)<br/>
-          }]<br/>
-        )<br/><br/>
-<span class="t-teal">print</span>(response.content[<span class="t-gold">0</span>].text)<br/>
-<span class="t-comment"># ✓ Memo drafted in 4.2 seconds</span>
-</div>
-</div>
-</div>
-</section><section id="curriculum">
-<p class="section-label">// Learning Path</p>
-<h2 class="section-title">A Structured 10-Week Journey</h2>
-<p class="section-body">Move at your own pace or follow the suggested schedule. Each week pairs concepts with hands-on labs.</p>
-<div class="timeline">
-<div class="timeline-item">
-<p class="timeline-week">Weeks 1–2</p>
-<h3 class="timeline-title">Foundations: Fintech Products Deep Dive</h3>
-<p class="timeline-desc">Map the fintech landscape relevant to commercial banking. Understand embedded finance, BaaS, real-time payments, and where your clients are already using these tools without telling you.</p>
-</div>
-<div class="timeline-item">
-<p class="timeline-week">Weeks 3–4</p>
-<h3 class="timeline-title">AI Agents: What They Are &amp; How Banks Deploy Them</h3>
-<p class="timeline-desc">Demystify AI agents through real bank case studies. Learn the difference between copilots, assistants, and fully autonomous agents — and understand the compliance guardrails.</p>
-</div>
-<div class="timeline-item">
-<p class="timeline-week">Weeks 5–6</p>
-<h3 class="timeline-title">Applying AI to Your Daily Work</h3>
-<p class="timeline-desc">Hands-on labs: draft loan memos, build portfolio monitoring reports, automate client prep, and use AI to surface cross-sell opportunities from your existing book.</p>
-</div>
-<div class="timeline-item">
-<p class="timeline-week">Weeks 7–8</p>
-<h3 class="timeline-title">Strategic Positioning: Banks &amp; Fintech in 2030</h3>
-<p class="timeline-desc">Analyze where the puck is going. Partnership models, API ecosystems, regulatory evolution, and how to advise clients navigating the fintech landscape.</p>
-</div>
-<div class="timeline-item">
-<p class="timeline-week">Weeks 9–10</p>
-<h3 class="timeline-title">Coding for Bankers: Build Your First Tool</h3>
-<p class="timeline-desc">Python from zero to useful. Write scripts that automate your workflow, pull live data via APIs, and build a simple client-facing tool you can actually share.</p>
-</div>
-</div>
-</section><section id="tools">
-<p class="section-label">// Technology Stack</p>
-<h2 class="section-title">Tools You'll Learn &amp; Use</h2>
-<div class="tools-grid">
-<div class="tool-card"><span class="tool-emoji">🐍</span><span class="tool-name">Python</span></div>
-<div class="tool-card"><span class="tool-emoji">🤖</span><span class="tool-name">Claude API</span></div>
-<div class="tool-card"><span class="tool-emoji">📓</span><span class="tool-name">Jupyter</span></div>
-<div class="tool-card"><span class="tool-emoji">🐙</span><span class="tool-name">GitHub</span></div>
-<div class="tool-card"><span class="tool-emoji">📊</span><span class="tool-name">Pandas</span></div>
-<div class="tool-card"><span class="tool-emoji">🔌</span><span class="tool-name">REST APIs</span></div>
-<div class="tool-card"><span class="tool-emoji">📈</span><span class="tool-name">Plaid / MX</span></div>
-<div class="tool-card"><span class="tool-emoji">⚡</span><span class="tool-name">Zapier / n8n</span></div>
-<div class="tool-card"><span class="tool-emoji">🗄️</span><span class="tool-name">SQL Basics</span></div>
-<div class="tool-card"><span class="tool-emoji">🌐</span><span class="tool-name">HTML/CSS</span></div>
-</div>
-</section><div class="cta-banner" id="start">
-<h2>Ready to Future-Proof Your Career?</h2>
-<p>Join bankers who are learning to combine deep credit judgment with cutting-edge technology — the most valuable combination in the industry.</p>
-<a class="btn-primary" href="#module1">Begin Module 1 →</a>
-</div><footer>
-<span class="footer-logo">FinTechFrontier</span>
-<span class="footer-note">// Open Source · Hosted on GitHub Pages · Built for Commercial Bankers</span>
-</footer><section class="module-section" id="module1"><div class="page-wrap">
-<!-- BREADCRUMB -->
-<div class="breadcrumb">
-<a href="#top">Home</a>
-<span>→</span>
-<span>Module 01</span>
-<span>→</span>
-<span>The New Fintech Landscape</span>
-</div>
-<!-- HEADER -->
-<div class="module-header">
-<div class="module-tag">Module 01</div>
-<h1>The New <em>Fintech</em> Landscape</h1>
-<p class="module-intro">
+
+<footer>
+  <span class="footer-logo">FinTechFrontier</span>
+  <span class="footer-note">// Open Source · Hosted on GitHub Pages · Built for Commercial Bankers</span>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.module-card, .feature-item, .timeline-item, .tool-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease, background 0.3s, border-color 0.2s';
+    observer.observe(el);
+  });
+</script>
+
+
+<section id="module1" class="module-section">
+
+
+<nav>
+  <a href="#top" class="nav-logo">FinTech<span>Frontier</span></a>
+  <div class="nav-right">
+    <a href="#top" class="nav-back">← All Modules</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <a href="#top">Home</a>
+    <span>→</span>
+    <span>Module 01</span>
+    <span>→</span>
+    <span>The New Fintech Landscape</span>
+  </div>
+
+  <!-- HEADER -->
+  <div class="module-header">
+    <div class="module-tag">Module 01</div>
+    <h1>The New <em>Fintech</em> Landscape</h1>
+    <p class="module-intro">
       Your clients are already using fintech products — often without mentioning it to you.
       This module maps the current landscape so you can spot opportunities, understand risks,
       and have smarter conversations at every client meeting.
     </p>
-<div class="module-meta">
-<div class="meta-item">⏱ <span>~4 hours</span> total reading + labs</div>
-<div class="meta-item">📚 <span>5 lessons</span></div>
-<div class="meta-item">🧪 <span>2 labs</span></div>
-<div class="meta-item">🎯 <span>Beginner–Intermediate</span></div>
-</div>
-</div>
-<!-- LESSONS -->
-<div class="lessons-section">
-<h2>Lessons in This Module</h2>
-<div class="lesson-list">
-<div class="lesson-item">
-<span class="lesson-num">1.1</span>
-<div class="lesson-content">
-<h3>What Is Fintech (Really)? A Practitioner's Map</h3>
-<p>Cut through the noise. A structured taxonomy of fintech categories relevant to commercial banking, with real company examples.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">1.2</span>
-<div class="lesson-content">
-<h3>Embedded Finance &amp; Banking-as-a-Service (BaaS)</h3>
-<p>How non-bank companies are embedding financial products — and what it means for your deposit base and fee income.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">1.3</span>
-<div class="lesson-content">
-<h3>Real-Time Payments: FedNow, RTP &amp; What's Next</h3>
-<p>The infrastructure shift happening right now in payments rails and what your treasury clients need to know.</p>
-</div>
-<span class="lesson-badge badge-video">Video</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">1.4</span>
-<div class="lesson-content">
-<h3>Digital Lending, Alternative Data &amp; Underwriting Tech</h3>
-<p>How fintech lenders are using cash flow data, AI scoring, and non-traditional data to underwrite credits — faster.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">1.5</span>
-<div class="lesson-content">
-<h3>Lab: Map Your Client's Fintech Exposure</h3>
-<p>Pick three clients from your book. Use the provided template to identify which fintech products they likely use and where you have gaps.</p>
-</div>
-<span class="lesson-badge badge-lab">Lab</span>
-</div>
-</div>
-</div>
-<!-- CONCEPT: WHAT IS FINTECH -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 1.1</p>
-<h2>What Is Fintech, Really?</h2>
-<p class="concept-body">
+    <div class="module-meta">
+      <div class="meta-item">⏱ <span>~4 hours</span> total reading + labs</div>
+      <div class="meta-item">📚 <span>5 lessons</span></div>
+      <div class="meta-item">🧪 <span>2 labs</span></div>
+      <div class="meta-item">🎯 <span>Beginner–Intermediate</span></div>
+    </div>
+  </div>
+
+  <!-- LESSONS -->
+  <div class="lessons-section">
+    <h2>Lessons in This Module</h2>
+    <div class="lesson-list">
+      <div class="lesson-item">
+        <span class="lesson-num">1.1</span>
+        <div class="lesson-content">
+          <h3>What Is Fintech (Really)? A Practitioner's Map</h3>
+          <p>Cut through the noise. A structured taxonomy of fintech categories relevant to commercial banking, with real company examples.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">1.2</span>
+        <div class="lesson-content">
+          <h3>Embedded Finance & Banking-as-a-Service (BaaS)</h3>
+          <p>How non-bank companies are embedding financial products — and what it means for your deposit base and fee income.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">1.3</span>
+        <div class="lesson-content">
+          <h3>Real-Time Payments: FedNow, RTP & What's Next</h3>
+          <p>The infrastructure shift happening right now in payments rails and what your treasury clients need to know.</p>
+        </div>
+        <span class="lesson-badge badge-video">Video</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">1.4</span>
+        <div class="lesson-content">
+          <h3>Digital Lending, Alternative Data & Underwriting Tech</h3>
+          <p>How fintech lenders are using cash flow data, AI scoring, and non-traditional data to underwrite credits — faster.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">1.5</span>
+        <div class="lesson-content">
+          <h3>Lab: Map Your Client's Fintech Exposure</h3>
+          <p>Pick three clients from your book. Use the provided template to identify which fintech products they likely use and where you have gaps.</p>
+        </div>
+        <span class="lesson-badge badge-lab">Lab</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONCEPT: WHAT IS FINTECH -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 1.1</p>
+    <h2>What Is Fintech, Really?</h2>
+    <p class="concept-body">
       "Fintech" has become such a broad term that it's almost useless without a framework. For commercial bankers,
       it's most helpful to think about fintech through the lens of which banking functions it touches:
       payments, lending, deposits, treasury management, and compliance.
     </p>
-<p class="concept-body">
+    <p class="concept-body">
       The companies that matter to you aren't the consumer apps — they're the infrastructure players, the B2B lenders,
       the treasury platforms, and the embedded finance providers that are quietly inside your clients' ERP systems
       right now.
     </p>
-<div class="callout">
-<strong>Banker's Reality Check:</strong> A 2024 study found that 78% of mid-market companies use at least
+
+    <div class="callout">
+      <strong>Banker's Reality Check:</strong> A 2024 study found that 78% of mid-market companies use at least
       one fintech product for payments or cash management. Most of them didn't proactively tell their banker.
       Your job is to know the landscape well enough to ask the right questions.
     </div>
-<div class="fintech-map">
-<div class="fintech-cell">
-<h4>Payments &amp; Rails</h4>
-<p>Real-time payment networks, cross-border solutions, and B2B payment automation replacing ACH and checks.</p>
-<div class="fintech-examples">
-<span class="tag">FedNow</span>
-<span class="tag">Stripe Treasury</span>
-<span class="tag">Adyen</span>
-<span class="tag">Corpay</span>
-</div>
-</div>
-<div class="fintech-cell">
-<h4>Digital Lending</h4>
-<p>AI-driven underwriting, cash flow-based credit, revenue-based financing, and supply chain lending platforms.</p>
-<div class="fintech-examples">
-<span class="tag">Bluevine</span>
-<span class="tag">Fundbox</span>
-<span class="tag">Pipe</span>
-<span class="tag">Capchase</span>
-</div>
-</div>
-<div class="fintech-cell">
-<h4>Banking-as-a-Service</h4>
-<p>API-driven bank infrastructure that lets non-banks embed deposit accounts, cards, and payment services.</p>
-<div class="fintech-examples">
-<span class="tag">Synctera</span>
-<span class="tag">Column</span>
-<span class="tag">Treasury Prime</span>
-<span class="tag">Unit</span>
-</div>
-</div>
-<div class="fintech-cell">
-<h4>Treasury &amp; Cash Mgmt</h4>
-<p>Modern treasury management systems connecting ERPs, banks, and payment rails through a single interface.</p>
-<div class="fintech-examples">
-<span class="tag">Kyriba</span>
-<span class="tag">Coupa</span>
-<span class="tag">Ramp</span>
-<span class="tag">Brex</span>
-</div>
-</div>
-<div class="fintech-cell">
-<h4>Compliance &amp; RegTech</h4>
-<p>AI-powered KYC/AML, fraud detection, and regulatory reporting tools used by both banks and their clients.</p>
-<div class="fintech-examples">
-<span class="tag">Alloy</span>
-<span class="tag">Sardine</span>
-<span class="tag">ComplyAdvantage</span>
-</div>
-</div>
-<div class="fintech-cell">
-<h4>SMB Financial OS</h4>
-<p>All-in-one financial platforms that combine banking, payroll, spend management, and accounting for businesses.</p>
-<div class="fintech-examples">
-<span class="tag">Mercury</span>
-<span class="tag">Relay</span>
-<span class="tag">Novo</span>
-<span class="tag">Found</span>
-</div>
-</div>
-</div>
-</div>
-<!-- CONCEPT: BaaS -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 1.2</p>
-<h2>Embedded Finance &amp; BaaS</h2>
-<p class="concept-body">
+
+    <div class="fintech-map">
+      <div class="fintech-cell">
+        <h4>Payments & Rails</h4>
+        <p>Real-time payment networks, cross-border solutions, and B2B payment automation replacing ACH and checks.</p>
+        <div class="fintech-examples">
+          <span class="tag">FedNow</span>
+          <span class="tag">Stripe Treasury</span>
+          <span class="tag">Adyen</span>
+          <span class="tag">Corpay</span>
+        </div>
+      </div>
+      <div class="fintech-cell">
+        <h4>Digital Lending</h4>
+        <p>AI-driven underwriting, cash flow-based credit, revenue-based financing, and supply chain lending platforms.</p>
+        <div class="fintech-examples">
+          <span class="tag">Bluevine</span>
+          <span class="tag">Fundbox</span>
+          <span class="tag">Pipe</span>
+          <span class="tag">Capchase</span>
+        </div>
+      </div>
+      <div class="fintech-cell">
+        <h4>Banking-as-a-Service</h4>
+        <p>API-driven bank infrastructure that lets non-banks embed deposit accounts, cards, and payment services.</p>
+        <div class="fintech-examples">
+          <span class="tag">Synctera</span>
+          <span class="tag">Column</span>
+          <span class="tag">Treasury Prime</span>
+          <span class="tag">Unit</span>
+        </div>
+      </div>
+      <div class="fintech-cell">
+        <h4>Treasury & Cash Mgmt</h4>
+        <p>Modern treasury management systems connecting ERPs, banks, and payment rails through a single interface.</p>
+        <div class="fintech-examples">
+          <span class="tag">Kyriba</span>
+          <span class="tag">Coupa</span>
+          <span class="tag">Ramp</span>
+          <span class="tag">Brex</span>
+        </div>
+      </div>
+      <div class="fintech-cell">
+        <h4>Compliance & RegTech</h4>
+        <p>AI-powered KYC/AML, fraud detection, and regulatory reporting tools used by both banks and their clients.</p>
+        <div class="fintech-examples">
+          <span class="tag">Alloy</span>
+          <span class="tag">Sardine</span>
+          <span class="tag">ComplyAdvantage</span>
+        </div>
+      </div>
+      <div class="fintech-cell">
+        <h4>SMB Financial OS</h4>
+        <p>All-in-one financial platforms that combine banking, payroll, spend management, and accounting for businesses.</p>
+        <div class="fintech-examples">
+          <span class="tag">Mercury</span>
+          <span class="tag">Relay</span>
+          <span class="tag">Novo</span>
+          <span class="tag">Found</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONCEPT: BaaS -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 1.2</p>
+    <h2>Embedded Finance & BaaS</h2>
+    <p class="concept-body">
       Banking-as-a-Service is arguably the most structurally important trend in fintech for commercial bankers.
       It allows non-bank companies to offer financial products — deposit accounts, debit cards, lending — by partnering
       with a sponsor bank that holds the charter.
     </p>
-<p class="concept-body">
+    <p class="concept-body">
       The implication: your clients' ERP, their fleet management software, their e-commerce platform — all of them
       could have banking products embedded in them. When that happens, financial activity that might have flowed
       through your bank flows through a software company instead.
     </p>
-<div class="callout">
-<strong>Strategic Question for Your Book:</strong> Which of your clients have embedded payment flows
+
+    <div class="callout">
+      <strong>Strategic Question for Your Book:</strong> Which of your clients have embedded payment flows
       or credit products inside their software stack that you don't have visibility into? That's the conversation
       to be having now, not after they tell you they're moving accounts.
     </div>
-</div>
-<!-- TAKEAWAYS -->
-<div class="takeaways">
+  </div>
+
+  <!-- TAKEAWAYS -->
+  <div class="takeaways">
+    
+
+  <!-- LESSON 1.3 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 1.3</p>
+    <h2>Real-Time Payments: FedNow, RTP &amp; What’s Next</h2>
+    <p class="concept-body">
+      Real-time payments are not “faster ACH.” They change how treasury teams think about liquidity: money can move
+      and settle in seconds, 24/7/365. That impacts forecasting, cash concentration, fraud controls, and client expectations.
+    </p>
+
+    <div class="two-col">
+      <div class="col-card">
+        <h4>What changes for your clients</h4>
+        <p class="concept-body">
+          • Liquidity becomes continuous (not end-of-day)<br/>
+          • Faster pay/collect cycles (and tighter working capital assumptions)<br/>
+          • Instant confirmation reduces settlement uncertainty<br/>
+          • Treasury teams demand real-time visibility and alerts
+        </p>
+      </div>
+      <div class="col-card">
+        <h4>What changes for your bank</h4>
+        <p class="concept-body">
+          • New fraud patterns (speed is the risk)<br/>
+          • Need for real-time risk scoring + limits<br/>
+          • More pressure on client-facing treasury tooling<br/>
+          • Competitive threat from fintech “payments OS” platforms
+        </p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:1.25rem;">Banker’s checklist: questions to ask</h3>
+    <p class="concept-body">
+      1) Who initiates payments today (ERP, TMS, AP platform)?<br/>
+      2) How are approvals handled (dual control, cutoffs, device/geo checks)?<br/>
+      3) What happens if a bad payment goes out at 11pm on a Sunday?<br/>
+      4) Do they need request-for-payment, invoicing, or instant payables?<br/>
+      5) What’s their current fraud posture (positive pay, ACH blocks, velocity limits)?
+    </p>
+
+    <div class="case-study" style="margin-top:1.5rem;">
+      <div class="case-study-label">Mini Exercise</div>
+      <h3>Draft a Real-Time Payments Pitch (5 minutes)</h3>
+      <p class="concept-body">
+        Write a 6–8 sentence email to a treasury client explaining one clear benefit (speed/confirmation),
+        one clear risk (fraud), and one control (limits + approvals + alerts).
+      </p>
+    </div>
+  </div>
+
+
+  <!-- LESSON 1.4 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 1.4</p>
+    <h2>Digital Lending, Alternative Data &amp; Underwriting Tech</h2>
+    <p class="concept-body">
+      Digital lenders don’t usually win because they have cheaper money — they win because they move faster and
+      underwrite using data you may not be looking at (cash flow, invoices, payroll, payments, e-commerce, etc.).
+      For commercial bankers, the skill is to understand <em>how</em> they decide and where the model can break.
+    </p>
+
+    <h3>Three underwriting shifts to understand</h3>
+    <p class="concept-body">
+      <strong>1) Cash-flow first:</strong> bank transactions and payments data can proxy operating performance in near real time.<br/>
+      <strong>2) Continuous monitoring:</strong> risk isn’t annual — it’s weekly/daily signals and triggers.<br/>
+      <strong>3) Productized decisions:</strong> fast offers with standardized terms; exceptions are rare.
+    </p>
+
+    <div class="guardrails" style="margin-top:1.25rem;">
+      <div class="guardrail-item">
+        <h4>Common strengths</h4>
+        <p>Speed, fewer documents, better UX, automated covenant/monitoring.</p>
+      </div>
+      <div class="guardrail-item">
+        <h4>Common weaknesses</h4>
+        <p>Model blind spots, pro-cyclicality, data quality issues, thin “story” for edge cases.</p>
+      </div>
+      <div class="guardrail-item">
+        <h4>Your advantage</h4>
+        <p>Judgment + structure: understand the business model, cycles, collateral, and sponsor/owner behavior.</p>
+      </div>
+      <div class="guardrail-item">
+        <h4>How to counter</h4>
+        <p>Offer speed where it matters (renewals, add-ons) and lead with certainty/relationship for complex needs.</p>
+      </div>
+    </div>
+
+    <div class="case-study" style="margin-top:1.5rem;">
+      <div class="case-study-label">Prompt Lab</div>
+      <h3>Prompt: “Underwrite Like a Fintech”</h3>
+      <p class="concept-body">
+        Ask an LLM to list the 10 data sources it would use to underwrite a specific borrower type (e.g., contractor,
+        DTC brand, logistics firm). Then you compare it to your current underwriting package and note the gaps.
+      </p>
+    </div>
+  </div>
+
+
+  <!-- LESSON 1.5 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 1.5</p>
+    <h2>Lab: Map Your Client’s Fintech Exposure</h2>
+    <p class="concept-body">
+      This is a relationship banker’s lab. The goal is to spot the fintech tools quietly sitting in your clients’ workflow
+      — so you can protect deposits/fees and open better conversations.
+    </p>
+
+    <h3>Pick 3 clients (or 3 prospects)</h3>
+    <p class="concept-body">
+      Choose a mix (e.g., engineering/professional services, light industrial, and a sponsor-backed services firm).
+    </p>
+
+    <h3>Fintech Exposure Template</h3>
+    <p class="concept-body">
+      Copy/paste this into a doc for each client:
+      <br/><br/>
+      <strong>Client:</strong> ____<br/>
+      <strong>How they get paid:</strong> invoicing / card / ACH / wires / marketplaces / other<br/>
+      <strong>Payments stack:</strong> (AP tool, bill pay, virtual cards, payables automation)<br/>
+      <strong>Treasury stack:</strong> (ERP/TMS, cash forecasting, bank portals, alerts)<br/>
+      <strong>Spend management:</strong> (cards, expense tools, approvals)<br/>
+      <strong>Collections:</strong> (lockbox, AR automation, request-for-payment)<br/>
+      <strong>Borrowing:</strong> (bank, fintech line, revenue-based, factoring, supply chain finance)<br/>
+      <strong>Data sources:</strong> (QuickBooks/NetSuite, payroll, payments processor, bank feeds)<br/>
+      <strong>Where the bank is “invisible”:</strong> ____<br/>
+      <strong>2 discovery questions for the next call:</strong> ____<br/>
+      <strong>1 opportunity:</strong> ____<br/>
+      <strong>1 risk to address:</strong> ____
+    </p>
+
+    <div class="case-study" style="margin-top:1.5rem;">
+      <div class="case-study-label">Deliverable</div>
+      <h3>A 1-Page Summary for Your Book</h3>
+      <p class="concept-body">
+        Summarize what you found across the 3 clients: top 3 fintech tools showing up, where you’re losing visibility,
+        and one “Monday move” (script + questions) to bring it into client conversations.
+      </p>
+    </div>
+  </div>
+
 <h3>Module 1 — Key Takeaways</h3>
-<div class="takeaway-item">Fintech is not monolithic — there are distinct categories, each with different competitive implications for your bank.</div>
-<div class="takeaway-item">Your mid-market clients are likely already using 2–4 fintech products. Know which ones before your next call.</div>
-<div class="takeaway-item">BaaS and embedded finance are structural shifts, not niche trends — they're already inside your clients' tech stacks.</div>
-<div class="takeaway-item">Real-time payments (FedNow, RTP) will change your clients' liquidity management expectations within 3 years.</div>
-<div class="takeaway-item">Digital lenders compete on speed and data, not pricing — understanding their underwriting approach helps you counter it.</div>
+    <div class="takeaway-item">Fintech is not monolithic — there are distinct categories, each with different competitive implications for your bank.</div>
+    <div class="takeaway-item">Your mid-market clients are likely already using 2–4 fintech products. Know which ones before your next call.</div>
+    <div class="takeaway-item">BaaS and embedded finance are structural shifts, not niche trends — they're already inside your clients' tech stacks.</div>
+    <div class="takeaway-item">Real-time payments (FedNow, RTP) will change your clients' liquidity management expectations within 3 years.</div>
+    <div class="takeaway-item">Digital lenders compete on speed and data, not pricing — understanding their underwriting approach helps you counter it.</div>
+  </div>
+
+  <!-- MODULE NAV -->
+  <div class="module-nav">
+    <a href="#top" class="nav-btn">← Back to All Modules</a>
+    <a href="#module2" class="nav-btn next">Module 2: AI Agents in Banking →</a>
+  </div>
+
 </div>
-<!-- MODULE NAV -->
-<div class="module-nav">
-<a class="nav-btn" href="#top">← Back to All Modules</a>
-<a class="nav-btn next" href="#module2">Module 2: AI Agents in Banking →</a>
-</div>
-</div></section><section class="module-section" id="module2"><div class="page-wrap">
-<div class="breadcrumb">
-<a href="#top">Home</a>
-<span>→</span>
-<span>Module 02</span>
-<span>→</span>
-<span>AI Agents in Banking</span>
-</div>
-<div class="module-header">
-<div class="module-tag">Module 02</div>
-<h1><em>AI Agents</em> in Banking</h1>
-<p class="module-intro">
+
+
+</section>
+
+<section id="module2" class="module-section">
+
+
+<nav>
+  <a href="#top" class="nav-logo">FinTech<span>Frontier</span></a>
+  <a href="#top" class="nav-back">← All Modules</a>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="breadcrumb">
+    <a href="#top">Home</a>
+    <span>→</span>
+    <span>Module 02</span>
+    <span>→</span>
+    <span>AI Agents in Banking</span>
+  </div>
+
+  <div class="module-header">
+    <div class="module-tag">Module 02</div>
+    <h1><em>AI Agents</em> in Banking</h1>
+    <p class="module-intro">
       AI agents are no longer a future concept — they're running live in production at major banks today.
       This module cuts through the hype, explains what agents actually are, and maps where they're being
       deployed across the banking value chain so you can understand what's coming and what it means for your role.
     </p>
-<div class="module-meta">
-<div class="meta-item">⏱ <span>~5 hours</span> total reading + labs</div>
-<div class="meta-item">📚 <span>5 lessons</span></div>
-<div class="meta-item">🧪 <span>2 labs + 1 case study</span></div>
-<div class="meta-item">🎯 <span>Beginner–Intermediate</span></div>
-</div>
-</div>
-<!-- LESSONS -->
-<div class="lessons-section">
-<h2>Lessons in This Module</h2>
-<div class="lesson-list">
-<div class="lesson-item">
-<span class="lesson-num">2.1</span>
-<div class="lesson-content">
-<h3>What AI Agents Actually Are (No Hype)</h3>
-<p>A precise, practical definition of AI agents versus chatbots versus automation — with a clear spectrum from assistant to autonomous.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">2.2</span>
-<div class="lesson-content">
-<h3>The Banking Agent Landscape: Where They're Deployed Today</h3>
-<p>A comprehensive map of AI agent use cases across compliance, fraud, credit, customer service, and operations — with real bank examples.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">2.3</span>
-<div class="lesson-content">
-<h3>Compliance &amp; Regulatory Guardrails for AI in Banking</h3>
-<p>What the OCC, Fed, and CFPB say about AI in banking. Model risk management (SR 11-7), explainability requirements, and fair lending implications.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">2.4</span>
-<div class="lesson-content">
-<h3>Case Study: JPMorgan's COiN &amp; AI Document Processing</h3>
-<p>A deep dive into one of the most cited AI deployments in banking history — what it did, what it actually achieved, and what it tells us.</p>
-</div>
-<span class="lesson-badge badge-case">Case Study</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">2.5</span>
-<div class="lesson-content">
-<h3>Lab: Audit an AI Agent Workflow</h3>
-<p>Using a provided scenario, map the decision points in an AI-assisted lending workflow and identify where human oversight is legally required.</p>
-</div>
-<span class="lesson-badge badge-lab">Lab</span>
-</div>
-</div>
-</div>
-<!-- LESSON 2.1 -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 2.1</p>
-<h2>What AI Agents Actually Are</h2>
-<p class="concept-body">
+    <div class="module-meta">
+      <div class="meta-item">⏱ <span>~5 hours</span> total reading + labs</div>
+      <div class="meta-item">📚 <span>5 lessons</span></div>
+      <div class="meta-item">🧪 <span>2 labs + 1 case study</span></div>
+      <div class="meta-item">🎯 <span>Beginner–Intermediate</span></div>
+    </div>
+  </div>
+
+  <!-- LESSONS -->
+  <div class="lessons-section">
+    <h2>Lessons in This Module</h2>
+    <div class="lesson-list">
+      <div class="lesson-item">
+        <span class="lesson-num">2.1</span>
+        <div class="lesson-content">
+          <h3>What AI Agents Actually Are (No Hype)</h3>
+          <p>A precise, practical definition of AI agents versus chatbots versus automation — with a clear spectrum from assistant to autonomous.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">2.2</span>
+        <div class="lesson-content">
+          <h3>The Banking Agent Landscape: Where They're Deployed Today</h3>
+          <p>A comprehensive map of AI agent use cases across compliance, fraud, credit, customer service, and operations — with real bank examples.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">2.3</span>
+        <div class="lesson-content">
+          <h3>Compliance & Regulatory Guardrails for AI in Banking</h3>
+          <p>What the OCC, Fed, and CFPB say about AI in banking. Model risk management (SR 11-7), explainability requirements, and fair lending implications.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">2.4</span>
+        <div class="lesson-content">
+          <h3>Case Study: JPMorgan's COiN & AI Document Processing</h3>
+          <p>A deep dive into one of the most cited AI deployments in banking history — what it did, what it actually achieved, and what it tells us.</p>
+        </div>
+        <span class="lesson-badge badge-case">Case Study</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">2.5</span>
+        <div class="lesson-content">
+          <h3>Lab: Audit an AI Agent Workflow</h3>
+          <p>Using a provided scenario, map the decision points in an AI-assisted lending workflow and identify where human oversight is legally required.</p>
+        </div>
+        <span class="lesson-badge badge-lab">Lab</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- LESSON 2.1 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 2.1</p>
+    <h2>What AI Agents Actually Are</h2>
+    <p class="concept-body">
       The word "agent" gets attached to everything from a simple chatbot to a fully autonomous trading system.
       For bankers, precision matters — especially when you're explaining these systems to compliance, presenting
       to a board, or advising a client who's considering adopting AI tools.
     </p>
-<p class="concept-body">
+    <p class="concept-body">
       The most useful framework is a spectrum based on <strong style="color: var(--text-primary);">autonomy</strong> and
       <strong style="color: var(--text-primary);">action scope</strong>: how independently does the system operate,
       and what real-world actions can it take?
     </p>
-<div class="agent-spectrum">
-<div class="spectrum-card">
-<p class="spectrum-level level-1">Level 1</p>
-<h4>AI Assistant / Copilot</h4>
-<p>Responds to queries, drafts content, summarizes documents. A human reviews everything before any action is taken. No autonomy.</p>
-<div class="spectrum-example">
+
+    <div class="agent-spectrum">
+      <div class="spectrum-card">
+        <p class="spectrum-level level-1">Level 1</p>
+        <h4>AI Assistant / Copilot</h4>
+        <p>Responds to queries, drafts content, summarizes documents. A human reviews everything before any action is taken. No autonomy.</p>
+        <div class="spectrum-example">
           Example: Banker asks Claude to summarize a 10-K. Claude provides summary. Banker reads it, decides what to do.
         </div>
-</div>
-<div class="spectrum-card">
-<p class="spectrum-level level-2">Level 2</p>
-<h4>Workflow Agent</h4>
-<p>Executes multi-step tasks with defined boundaries. Can call APIs, retrieve data, and produce outputs — but within guardrails set by humans.</p>
-<div class="spectrum-example">
+      </div>
+      <div class="spectrum-card">
+        <p class="spectrum-level level-2">Level 2</p>
+        <h4>Workflow Agent</h4>
+        <p>Executes multi-step tasks with defined boundaries. Can call APIs, retrieve data, and produce outputs — but within guardrails set by humans.</p>
+        <div class="spectrum-example">
           Example: Agent pulls borrower financials from core system, spreads them, flags covenant breaches, sends alert to RM. No credit decision made.
         </div>
-</div>
-<div class="spectrum-card">
-<p class="spectrum-level level-3">Level 3</p>
-<h4>Autonomous Agent</h4>
-<p>Plans, decides, and executes across multiple systems with minimal human checkpoints. Rare in regulated banking — but coming.</p>
-<div class="spectrum-example">
+      </div>
+      <div class="spectrum-card">
+        <p class="spectrum-level level-3">Level 3</p>
+        <h4>Autonomous Agent</h4>
+        <p>Plans, decides, and executes across multiple systems with minimal human checkpoints. Rare in regulated banking — but coming.</p>
+        <div class="spectrum-example">
           Example: Agent monitors portfolio, identifies deteriorating credit, initiates covenant waiver process, schedules client call, prepares briefing — all autonomously.
         </div>
-</div>
-</div>
-<div class="callout">
-<strong>Banker's Reality Check:</strong> Nearly all AI in banking today is Level 1 or early Level 2. 
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>Banker's Reality Check:</strong> Nearly all AI in banking today is Level 1 or early Level 2. 
       Anyone claiming fully autonomous credit decisioning at scale in a regulated bank is almost certainly 
       overstating the case. Know the spectrum so you can ask the right questions.
     </div>
-</div>
-<!-- LESSON 2.2 -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 2.2</p>
-<h2>Where Agents Are Deployed Today</h2>
-<p class="concept-body">
+  </div>
+
+  <!-- LESSON 2.2 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 2.2</p>
+    <h2>Where Agents Are Deployed Today</h2>
+    <p class="concept-body">
       AI agents are already embedded in banking operations across every major function. The deployment
       patterns are consistent: highest adoption where tasks are high-volume, rule-based, and document-heavy.
       Lower adoption where judgment, relationships, and regulatory accountability are paramount.
     </p>
-<div class="usecase-grid">
-<div class="usecase-card">
-<span class="usecase-icon">🔍</span>
-<h4>Fraud Detection &amp; AML</h4>
-<p>Real-time transaction monitoring agents that flag anomalous patterns, auto-generate SARs, and escalate cases — reducing false positives by 30–50% versus rule-based systems.</p>
-<p class="usecase-banks">Used by: JPMorgan, Bank of America, HSBC, Wells Fargo</p>
-</div>
-<div class="usecase-card">
-<span class="usecase-icon">📄</span>
-<h4>Document Processing</h4>
-<p>Agents that ingest loan documents, extract key terms, identify missing items, and populate core systems — eliminating hours of manual data entry per deal.</p>
-<p class="usecase-banks">Used by: JPMorgan (COiN), Goldman Sachs, Citi</p>
-</div>
-<div class="usecase-card">
-<span class="usecase-icon">🤝</span>
-<h4>Customer Service &amp; Onboarding</h4>
-<p>Conversational agents handling KYC document collection, account opening workflows, and FAQ resolution — 24/7 without human staffing.</p>
-<p class="usecase-banks">Used by: Capital One (Eno), Bank of America (Erica), U.S. Bank</p>
-</div>
-<div class="usecase-card">
-<span class="usecase-icon">⚖️</span>
-<h4>Regulatory Compliance</h4>
-<p>Agents monitoring regulatory change, flagging policy impacts, and drafting compliance memos — dramatically reducing the lag between rule publication and bank response.</p>
-<p class="usecase-banks">Used by: Deutsche Bank, Barclays, State Street</p>
-</div>
-<div class="usecase-card">
-<span class="usecase-icon">📊</span>
-<h4>Credit Underwriting Support</h4>
-<p>Agents that pull financial statements, spread ratios, benchmark against industry peers, and flag underwriting concerns for RM review — not making the decision, but doing the prep work.</p>
-<p class="usecase-banks">Used by: Regions, Truist, KeyBank (emerging)</p>
-</div>
-<div class="usecase-card">
-<span class="usecase-icon">🏦</span>
-<h4>Treasury &amp; Liquidity Management</h4>
-<p>Agents optimizing intraday liquidity positioning, flagging concentration risks, and simulating stress scenarios against regulatory thresholds automatically.</p>
-<p class="usecase-banks">Used by: BNY Mellon, State Street, Northern Trust</p>
-</div>
-</div>
-</div>
-<!-- LESSON 2.3 -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 2.3</p>
-<h2>Compliance &amp; Regulatory Guardrails</h2>
-<p class="concept-body">
+
+    <div class="usecase-grid">
+      <div class="usecase-card">
+        <span class="usecase-icon">🔍</span>
+        <h4>Fraud Detection & AML</h4>
+        <p>Real-time transaction monitoring agents that flag anomalous patterns, auto-generate SARs, and escalate cases — reducing false positives by 30–50% versus rule-based systems.</p>
+        <p class="usecase-banks">Used by: JPMorgan, Bank of America, HSBC, Wells Fargo</p>
+      </div>
+      <div class="usecase-card">
+        <span class="usecase-icon">📄</span>
+        <h4>Document Processing</h4>
+        <p>Agents that ingest loan documents, extract key terms, identify missing items, and populate core systems — eliminating hours of manual data entry per deal.</p>
+        <p class="usecase-banks">Used by: JPMorgan (COiN), Goldman Sachs, Citi</p>
+      </div>
+      <div class="usecase-card">
+        <span class="usecase-icon">🤝</span>
+        <h4>Customer Service & Onboarding</h4>
+        <p>Conversational agents handling KYC document collection, account opening workflows, and FAQ resolution — 24/7 without human staffing.</p>
+        <p class="usecase-banks">Used by: Capital One (Eno), Bank of America (Erica), U.S. Bank</p>
+      </div>
+      <div class="usecase-card">
+        <span class="usecase-icon">⚖️</span>
+        <h4>Regulatory Compliance</h4>
+        <p>Agents monitoring regulatory change, flagging policy impacts, and drafting compliance memos — dramatically reducing the lag between rule publication and bank response.</p>
+        <p class="usecase-banks">Used by: Deutsche Bank, Barclays, State Street</p>
+      </div>
+      <div class="usecase-card">
+        <span class="usecase-icon">📊</span>
+        <h4>Credit Underwriting Support</h4>
+        <p>Agents that pull financial statements, spread ratios, benchmark against industry peers, and flag underwriting concerns for RM review — not making the decision, but doing the prep work.</p>
+        <p class="usecase-banks">Used by: Regions, Truist, KeyBank (emerging)</p>
+      </div>
+      <div class="usecase-card">
+        <span class="usecase-icon">🏦</span>
+        <h4>Treasury & Liquidity Management</h4>
+        <p>Agents optimizing intraday liquidity positioning, flagging concentration risks, and simulating stress scenarios against regulatory thresholds automatically.</p>
+        <p class="usecase-banks">Used by: BNY Mellon, State Street, Northern Trust</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- LESSON 2.3 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 2.3</p>
+    <h2>Compliance & Regulatory Guardrails</h2>
+    <p class="concept-body">
       Every banker needs a working understanding of the regulatory framework governing AI in banking.
       You don't need to be a lawyer, but you do need to know the key principles — because your clients
       will ask about them, your compliance team will reference them, and the questions will only get more
       pointed as AI use expands.
     </p>
-<div class="callout-purple">
-<strong>The Key Document: SR 11-7</strong> — The Federal Reserve and OCC's guidance on Model Risk Management 
+
+    <div class="callout-purple">
+      <strong>The Key Document: SR 11-7</strong> — The Federal Reserve and OCC's guidance on Model Risk Management 
       is the foundational framework. It predates modern AI but applies directly: models must be validated, 
       documented, monitored, and their limitations understood. Any AI agent making or influencing credit 
       decisions is a model under SR 11-7.
     </div>
-<div class="guardrails">
-<div class="guardrail-item">
-<span class="guardrail-icon">📋</span>
-<div>
-<h5>Model Validation</h5>
-<p>All AI models used in credit decisions must be independently validated. This includes LLMs used to assist in underwriting analysis.</p>
-</div>
-</div>
-<div class="guardrail-item">
-<span class="guardrail-icon">🔍</span>
-<div>
-<h5>Explainability</h5>
-<p>Adverse action notices under ECOA/Reg B require specific reasons for credit denial. Black-box AI outputs that can't be explained create fair lending exposure.</p>
-</div>
-</div>
-<div class="guardrail-item">
-<span class="guardrail-icon">⚖️</span>
-<div>
-<h5>Fair Lending</h5>
-<p>AI trained on historical data can perpetuate or amplify discriminatory patterns. CFPB has issued guidance making clear that algorithmic decisions are not exempt from fair lending laws.</p>
-</div>
-</div>
-<div class="guardrail-item">
-<span class="guardrail-icon">👤</span>
-<div>
-<h5>Human Oversight</h5>
-<p>For consequential decisions — credit approval, account closure, fraud flags — human review remains a regulatory expectation and best practice even when AI assists.</p>
-</div>
-</div>
-<div class="guardrail-item">
-<span class="guardrail-icon">📁</span>
-<div>
-<h5>Data Governance</h5>
-<p>AI agents often require access to customer data across systems. Proper data governance, lineage tracking, and privacy compliance (GLBA, CCPA) apply fully.</p>
-</div>
-</div>
-<div class="guardrail-item">
-<span class="guardrail-icon">🛡️</span>
-<div>
-<h5>Third-Party Risk</h5>
-<p>Using a vendor's AI model (e.g., OpenAI, Anthropic, Microsoft Copilot) doesn't transfer regulatory responsibility. Banks remain accountable for all model outcomes.</p>
-</div>
-</div>
-</div>
-</div>
-<!-- CASE STUDY -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 2.4</p>
-<h2>Case Study: JPMorgan's COiN</h2>
-<div class="case-study">
-<p class="case-study-label">// Real-World Deployment</p>
-<h3>Contract Intelligence (COiN) — JPMorgan Chase</h3>
-<p>
+
+    <div class="guardrails">
+      <div class="guardrail-item">
+        <span class="guardrail-icon">📋</span>
+        <div>
+          <h5>Model Validation</h5>
+          <p>All AI models used in credit decisions must be independently validated. This includes LLMs used to assist in underwriting analysis.</p>
+        </div>
+      </div>
+      <div class="guardrail-item">
+        <span class="guardrail-icon">🔍</span>
+        <div>
+          <h5>Explainability</h5>
+          <p>Adverse action notices under ECOA/Reg B require specific reasons for credit denial. Black-box AI outputs that can't be explained create fair lending exposure.</p>
+        </div>
+      </div>
+      <div class="guardrail-item">
+        <span class="guardrail-icon">⚖️</span>
+        <div>
+          <h5>Fair Lending</h5>
+          <p>AI trained on historical data can perpetuate or amplify discriminatory patterns. CFPB has issued guidance making clear that algorithmic decisions are not exempt from fair lending laws.</p>
+        </div>
+      </div>
+      <div class="guardrail-item">
+        <span class="guardrail-icon">👤</span>
+        <div>
+          <h5>Human Oversight</h5>
+          <p>For consequential decisions — credit approval, account closure, fraud flags — human review remains a regulatory expectation and best practice even when AI assists.</p>
+        </div>
+      </div>
+      <div class="guardrail-item">
+        <span class="guardrail-icon">📁</span>
+        <div>
+          <h5>Data Governance</h5>
+          <p>AI agents often require access to customer data across systems. Proper data governance, lineage tracking, and privacy compliance (GLBA, CCPA) apply fully.</p>
+        </div>
+      </div>
+      <div class="guardrail-item">
+        <span class="guardrail-icon">🛡️</span>
+        <div>
+          <h5>Third-Party Risk</h5>
+          <p>Using a vendor's AI model (e.g., OpenAI, Anthropic, Microsoft Copilot) doesn't transfer regulatory responsibility. Banks remain accountable for all model outcomes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CASE STUDY -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 2.4</p>
+    <h2>Case Study: JPMorgan's COiN</h2>
+
+    <div class="case-study">
+      <p class="case-study-label">// Real-World Deployment</p>
+      <h3>Contract Intelligence (COiN) — JPMorgan Chase</h3>
+      <p>
         Launched in 2017, COiN (Contract Intelligence) was one of the first widely publicized AI deployments
         by a major bank in a commercial banking context. The system used machine learning to interpret
         commercial loan agreements and extract critical data points — work that had previously required
         lawyers and loan officers to review documents manually.
       </p>
-<p>
+      <p>
         The core task: reviewing 12,000 annual credit agreements to extract roughly 150 attributes per document —
         things like maturity dates, covenant definitions, collateral descriptions, and pricing grids.
         Previously this work took roughly 360,000 hours of lawyer and analyst time per year.
         COiN completed the same work in seconds.
       </p>
-<p>
+      <p>
         Crucially, COiN didn't replace lawyers — it made them dramatically more productive. 
         The system handled extraction; humans handled interpretation, negotiation, and judgment calls.
         This is the model that works in regulated environments.
       </p>
-<div class="case-result">
-<div class="result-stat">
-<span class="result-num">360K</span>
-<span class="result-label">Hours saved annually</span>
-</div>
-<div class="result-stat">
-<span class="result-num">Seconds</span>
-<span class="result-label">vs. months for review</span>
-</div>
-<div class="result-stat">
-<span class="result-num">&lt;1%</span>
-<span class="result-label">Error rate reported</span>
-</div>
-</div>
-</div>
-<div class="callout">
-<strong>The Lesson for Your Bank:</strong> COiN's success wasn't about replacing expertise — it was 
+      <div class="case-result">
+        <div class="result-stat">
+          <span class="result-num">360K</span>
+          <span class="result-label">Hours saved annually</span>
+        </div>
+        <div class="result-stat">
+          <span class="result-num">Seconds</span>
+          <span class="result-label">vs. months for review</span>
+        </div>
+        <div class="result-stat">
+          <span class="result-num">&lt;1%</span>
+          <span class="result-label">Error rate reported</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>The Lesson for Your Bank:</strong> COiN's success wasn't about replacing expertise — it was 
       about eliminating the mechanical, high-volume work so that expert judgment could be applied where it 
       actually matters. Every commercial bank has equivalent workflows. Loan document review, covenant 
       compliance checking, financial statement spreading — these are your COiN opportunities.
     </div>
-</div>
-<!-- TAKEAWAYS -->
-<div class="takeaways">
+  </div>
+
+  <!-- TAKEAWAYS -->
+  <div class="takeaways">
+    
+
+  <!-- LESSON 2.5 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 2.5</p>
+    <h2>Lab: Audit an AI Agent Workflow</h2>
+    <p class="concept-body">
+      This lab turns “AI hype” into an auditable workflow. You’ll map where an agent touches data, makes judgments,
+      and triggers actions — then mark exactly where human review is required under common banking controls.
+    </p>
+
+    <div class="two-col">
+      <div class="col-card">
+        <h4>Scenario</h4>
+        <p class="concept-body">
+          You’re piloting an AI-assisted lending workflow for mid-market renewals:
+          the agent pulls borrower financials + bank transaction history, drafts a renewal memo, proposes risk rating
+          changes, and prepares covenant recommendations.
+        </p>
+      </div>
+      <div class="col-card">
+        <h4>Goal</h4>
+        <p class="concept-body">
+          Identify decision points and classify them as: <strong>AI Draft</strong>, <strong>Human Approve</strong>,
+          or <strong>Human Decide</strong>. Then propose guardrails and logging requirements.
+        </p>
+      </div>
+    </div>
+
+    <h3 style="margin-top: 1.5rem;">Step 1 — Draw the workflow (10 minutes)</h3>
+    <p class="concept-body">
+      On paper (or a whiteboard), sketch the workflow as boxes and arrows. Include at least these steps:
+      data ingestion → spreading/ratios → narrative drafting → risk rating suggestion → covenant suggestion → memo output → storage/distribution.
+    </p>
+
+    <h3 style="margin-top: 1.25rem;">Step 2 — Mark decision points (15 minutes)</h3>
+    <p class="concept-body">
+      For each step, answer:
+      (a) What data is used? (b) What action is taken? (c) What could go wrong? (d) Who is accountable?
+    </p>
+
+    <div class="guardrails" style="margin-top: 1.25rem;">
+      <div class="guardrail-item">
+        <h4>High-Risk Decisions (Human Decide)</h4>
+        <p>Risk rating changes, approval recommendations, adverse action reasoning, covenant waivers.</p>
+      </div>
+      <div class="guardrail-item">
+        <h4>Medium-Risk (Human Approve)</h4>
+        <p>Financial spreading outputs, exception summaries, covenant package drafts.</p>
+      </div>
+      <div class="guardrail-item">
+        <h4>Lower-Risk (AI Draft)</h4>
+        <p>Document summaries, first-draft narratives, checklist completion suggestions.</p>
+      </div>
+      <div class="guardrail-item">
+        <h4>Always Required</h4>
+        <p>Audit logs, data lineage, versioning, and a clear “who reviewed what” trail.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top: 1.25rem;">Step 3 — Write the control plan (15 minutes)</h3>
+    <p class="concept-body">
+      Create a one-page control plan with: (1) access controls, (2) prompt + model version control, (3) output validation,
+      (4) human sign-off points, (5) monitoring + exception reporting, (6) incident response.
+    </p>
+
+    <div class="case-study" style="margin-top: 1.5rem;">
+      <div class="case-study-label">Deliverable</div>
+      <h3>Agent Workflow Audit Sheet</h3>
+      <p>Copy/paste this structure into a doc:</p>
+      <p class="concept-body">
+        <strong>Workflow Step:</strong> ____<br/>
+        <strong>Data Inputs:</strong> ____<br/>
+        <strong>Agent Action:</strong> ____<br/>
+        <strong>Decision Type:</strong> AI Draft / Human Approve / Human Decide<br/>
+        <strong>Primary Risk:</strong> model error / data error / bias / privacy / unauthorized action<br/>
+        <strong>Control:</strong> validation rule + reviewer + evidence stored<br/>
+        <strong>Evidence:</strong> log entry / screenshot / file path / ticket ID
+      </p>
+    </div>
+  </div>
+
 <h3>Module 2 — Key Takeaways</h3>
-<div class="takeaway-item">AI agents exist on a spectrum — most banking AI today is Level 1 or 2. True autonomy in regulated credit decisions is rare and faces significant compliance hurdles.</div>
-<div class="takeaway-item">The highest-ROI banking deployments are in document-heavy, high-volume workflows: AML monitoring, document extraction, compliance review, and customer onboarding.</div>
-<div class="takeaway-item">SR 11-7 applies to AI models. Any AI used in credit decisions must be validated, documented, and monitored — regardless of the vendor.</div>
-<div class="takeaway-item">Explainability is not just a technical challenge — it's a legal requirement under ECOA/Reg B for adverse credit actions.</div>
-<div class="takeaway-item">The banker's role evolves, not disappears: AI handles extraction and pattern recognition; you provide judgment, relationships, and accountability.</div>
+    <div class="takeaway-item">AI agents exist on a spectrum — most banking AI today is Level 1 or 2. True autonomy in regulated credit decisions is rare and faces significant compliance hurdles.</div>
+    <div class="takeaway-item">The highest-ROI banking deployments are in document-heavy, high-volume workflows: AML monitoring, document extraction, compliance review, and customer onboarding.</div>
+    <div class="takeaway-item">SR 11-7 applies to AI models. Any AI used in credit decisions must be validated, documented, and monitored — regardless of the vendor.</div>
+    <div class="takeaway-item">Explainability is not just a technical challenge — it's a legal requirement under ECOA/Reg B for adverse credit actions.</div>
+    <div class="takeaway-item">The banker's role evolves, not disappears: AI handles extraction and pattern recognition; you provide judgment, relationships, and accountability.</div>
+  </div>
+
+  <div class="module-nav">
+    <a href="#module1" class="nav-btn">← Module 1: Fintech Landscape</a>
+    <a href="#module3" class="nav-btn next">Module 3: AI for Your Daily Work →</a>
+  </div>
+
 </div>
-<div class="module-nav">
-<a class="nav-btn" href="#module1">← Module 1: Fintech Landscape</a>
-<a class="nav-btn next" href="#module3">Module 3: AI for Your Daily Work →</a>
-</div>
-</div></section><section class="module-section" id="module3"><div class="page-wrap">
-<div class="breadcrumb">
-<a href="#top">Home</a>
-<span>→</span>
-<span>Module 03</span>
-<span>→</span>
-<span>AI for Biz Dev, Loans &amp; Portfolios</span>
-</div>
-<div class="module-header">
-<div class="module-tag">Module 03</div>
-<h1>AI for <em>Your Daily Work</em></h1>
-<p class="module-intro">
+
+</section>
+
+<section id="module3" class="module-section">
+
+
+<nav>
+  <a href="#top" class="nav-logo">FinTech<span>Frontier</span></a>
+  <a href="#top" class="nav-back">← All Modules</a>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="breadcrumb">
+    <a href="#top">Home</a>
+    <span>→</span>
+    <span>Module 03</span>
+    <span>→</span>
+    <span>AI for Biz Dev, Loans & Portfolios</span>
+  </div>
+
+  <div class="module-header">
+    <div class="module-tag">Module 03</div>
+    <h1>AI for <em>Your Daily Work</em></h1>
+    <p class="module-intro">
       This is the practical core of the course. We take AI out of the theoretical and put it directly
       into your workflow — business development, loan underwriting, and portfolio monitoring.
       Every lesson includes a prompt template or lab exercise you can use immediately.
     </p>
-<div class="module-meta">
-<div class="meta-item">⏱ <span>~6 hours</span> total reading + labs</div>
-<div class="meta-item">📚 <span>6 lessons</span></div>
-<div class="meta-item">🧪 <span>3 labs + prompt library</span></div>
-<div class="meta-item">🎯 <span>Intermediate</span></div>
-</div>
-</div>
-<div class="lessons-section">
-<h2>Lessons in This Module</h2>
-<div class="lesson-list">
-<div class="lesson-item">
-<span class="lesson-num">3.1</span>
-<div class="lesson-content">
-<h3>AI-Assisted Business Development: Prospecting &amp; Prep</h3>
-<p>Build a prospect research workflow that surfaces key financial, industry, and relationship intelligence before every call.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">3.2</span>
-<div class="lesson-content">
-<h3>Prompt Engineering for Bankers: Getting the Output You Need</h3>
-<p>The five prompt patterns that produce the most reliable, banker-specific outputs from any AI model.</p>
-</div>
-<span class="lesson-badge badge-prompt">Prompt Lab</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">3.3</span>
-<div class="lesson-content">
-<h3>Automated Loan Memo Drafting</h3>
-<p>Use AI to draft the narrative sections of a credit memo — borrower overview, industry analysis, strengths/concerns — in minutes, not hours.</p>
-</div>
-<span class="lesson-badge badge-lab">Lab</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">3.4</span>
-<div class="lesson-content">
-<h3>Spreading Financial Statements with AI</h3>
-<p>From PDF to analyzed spreads: use AI to extract key ratios, flag concerns, and benchmark against industry peers automatically.</p>
-</div>
-<span class="lesson-badge badge-lab">Lab</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">3.5</span>
-<div class="lesson-content">
-<h3>Portfolio Monitoring: Early Warning Signals</h3>
-<p>Build an AI-assisted portfolio review process that surfaces covenant concerns, deteriorating credits, and cross-sell opportunities from existing data.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">3.6</span>
-<div class="lesson-content">
-<h3>Client Insight Reports: 10 Minutes, Not 2 Hours</h3>
-<p>Generate pre-call briefings, industry snapshots, and relationship review documents using AI — personalized to each client.</p>
-</div>
-<span class="lesson-badge badge-prompt">Prompt Lab</span>
-</div>
-</div>
-</div>
-<!-- 3.1 BIZ DEV -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 3.1</p>
-<h2>AI-Assisted Business Development</h2>
-<p class="concept-body">
+    <div class="module-meta">
+      <div class="meta-item">⏱ <span>~6 hours</span> total reading + labs</div>
+      <div class="meta-item">📚 <span>6 lessons</span></div>
+      <div class="meta-item">🧪 <span>3 labs + prompt library</span></div>
+      <div class="meta-item">🎯 <span>Intermediate</span></div>
+    </div>
+  </div>
+
+  <div class="lessons-section">
+    <h2>Lessons in This Module</h2>
+    <div class="lesson-list">
+      <div class="lesson-item">
+        <span class="lesson-num">3.1</span>
+        <div class="lesson-content">
+          <h3>AI-Assisted Business Development: Prospecting & Prep</h3>
+          <p>Build a prospect research workflow that surfaces key financial, industry, and relationship intelligence before every call.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">3.2</span>
+        <div class="lesson-content">
+          <h3>Prompt Engineering for Bankers: Getting the Output You Need</h3>
+          <p>The five prompt patterns that produce the most reliable, banker-specific outputs from any AI model.</p>
+        </div>
+        <span class="lesson-badge badge-prompt">Prompt Lab</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">3.3</span>
+        <div class="lesson-content">
+          <h3>Automated Loan Memo Drafting</h3>
+          <p>Use AI to draft the narrative sections of a credit memo — borrower overview, industry analysis, strengths/concerns — in minutes, not hours.</p>
+        </div>
+        <span class="lesson-badge badge-lab">Lab</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">3.4</span>
+        <div class="lesson-content">
+          <h3>Spreading Financial Statements with AI</h3>
+          <p>From PDF to analyzed spreads: use AI to extract key ratios, flag concerns, and benchmark against industry peers automatically.</p>
+        </div>
+        <span class="lesson-badge badge-lab">Lab</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">3.5</span>
+        <div class="lesson-content">
+          <h3>Portfolio Monitoring: Early Warning Signals</h3>
+          <p>Build an AI-assisted portfolio review process that surfaces covenant concerns, deteriorating credits, and cross-sell opportunities from existing data.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">3.6</span>
+        <div class="lesson-content">
+          <h3>Client Insight Reports: 10 Minutes, Not 2 Hours</h3>
+          <p>Generate pre-call briefings, industry snapshots, and relationship review documents using AI — personalized to each client.</p>
+        </div>
+        <span class="lesson-badge badge-prompt">Prompt Lab</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3.1 BIZ DEV -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 3.1</p>
+    <h2>AI-Assisted Business Development</h2>
+    <p class="concept-body">
       The best commercial bankers don't just work harder — they walk into every meeting knowing more.
       AI changes the economics of research dramatically: what used to take two hours of reading
       10-Ks, news, and industry reports can be compressed into 15 minutes of directed AI-assisted prep.
     </p>
-<p class="concept-body">
+    <p class="concept-body">
       The workflow below is the foundation. Adapt it to your CRM, your prospects, and your coverage universe.
     </p>
-<div class="workflow">
-<div class="workflow-step">
-<div class="step-num">01</div>
-<div class="step-content">
-<h4>Company Intelligence Gathering</h4>
-<p>Use AI to synthesize news, filings, earnings calls, and industry reports into a 1-page company snapshot. Focus: recent capital needs, strategic moves, and pain points.</p>
-<span class="step-tag">Prompt template below ↓</span>
-</div>
-</div>
-<div class="workflow-step">
-<div class="step-num">02</div>
-<div class="step-content">
-<h4>Industry Positioning Analysis</h4>
-<p>Generate a competitive positioning snapshot: where does this company sit in its industry? What tailwinds or headwinds affect their credit profile and capital needs?</p>
-<span class="step-tag">AI + Public Data</span>
-</div>
-</div>
-<div class="workflow-step">
-<div class="step-num">03</div>
-<div class="step-content">
-<h4>Relationship Map</h4>
-<p>Identify who at the company makes banking decisions, who the current banking relationships are, and where there are likely gaps your bank can fill.</p>
-<span class="step-tag">LinkedIn + AI Analysis</span>
-</div>
-</div>
-<div class="workflow-step">
-<div class="step-num">04</div>
-<div class="step-content">
-<h4>Tailored Pitch Angle</h4>
-<p>Use the intelligence gathered to craft a meeting agenda and 2–3 specific conversation starters that connect your bank's capabilities to their current business priorities.</p>
-<span class="step-tag">AI-Drafted, Human-Refined</span>
-</div>
-</div>
-<div class="workflow-step">
-<div class="step-num">05</div>
-<div class="step-content">
-<h4>Post-Meeting Follow-Up</h4>
-<p>Log call notes, generate a follow-up email, and update your CRM record — using AI to summarize the meeting and draft next steps in your voice.</p>
-<span class="step-tag">AI-Assisted CRM Update</span>
-</div>
-</div>
-</div>
-</div>
-<!-- 3.2 PROMPT ENGINEERING -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 3.2</p>
-<h2>Prompt Engineering for Bankers</h2>
-<p class="concept-body">
+
+    <div class="workflow">
+      <div class="workflow-step">
+        <div class="step-num">01</div>
+        <div class="step-content">
+          <h4>Company Intelligence Gathering</h4>
+          <p>Use AI to synthesize news, filings, earnings calls, and industry reports into a 1-page company snapshot. Focus: recent capital needs, strategic moves, and pain points.</p>
+          <span class="step-tag">Prompt template below ↓</span>
+        </div>
+      </div>
+      <div class="workflow-step">
+        <div class="step-num">02</div>
+        <div class="step-content">
+          <h4>Industry Positioning Analysis</h4>
+          <p>Generate a competitive positioning snapshot: where does this company sit in its industry? What tailwinds or headwinds affect their credit profile and capital needs?</p>
+          <span class="step-tag">AI + Public Data</span>
+        </div>
+      </div>
+      <div class="workflow-step">
+        <div class="step-num">03</div>
+        <div class="step-content">
+          <h4>Relationship Map</h4>
+          <p>Identify who at the company makes banking decisions, who the current banking relationships are, and where there are likely gaps your bank can fill.</p>
+          <span class="step-tag">LinkedIn + AI Analysis</span>
+        </div>
+      </div>
+      <div class="workflow-step">
+        <div class="step-num">04</div>
+        <div class="step-content">
+          <h4>Tailored Pitch Angle</h4>
+          <p>Use the intelligence gathered to craft a meeting agenda and 2–3 specific conversation starters that connect your bank's capabilities to their current business priorities.</p>
+          <span class="step-tag">AI-Drafted, Human-Refined</span>
+        </div>
+      </div>
+      <div class="workflow-step">
+        <div class="step-num">05</div>
+        <div class="step-content">
+          <h4>Post-Meeting Follow-Up</h4>
+          <p>Log call notes, generate a follow-up email, and update your CRM record — using AI to summarize the meeting and draft next steps in your voice.</p>
+          <span class="step-tag">AI-Assisted CRM Update</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3.2 PROMPT ENGINEERING -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 3.2</p>
+    <h2>Prompt Engineering for Bankers</h2>
+    <p class="concept-body">
       The quality of your AI output is almost entirely determined by the quality of your prompt.
       Vague prompts produce generic output. Specific, structured prompts produce analyst-quality work.
       Here are the five prompt patterns that consistently deliver the best results for banking tasks.
     </p>
-<div class="prompt-block">
-<div class="prompt-header">
-<div class="prompt-dot"></div>
-<span class="prompt-label">Pattern 1 — Pre-Call Research Brief</span>
-</div>
-<div class="prompt-body"><span class="p-comment"># Copy, fill in the brackets, paste into Claude or ChatGPT</span>
+
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-dot"></div>
+        <span class="prompt-label">Pattern 1 — Pre-Call Research Brief</span>
+      </div>
+      <div class="prompt-body"><span class="p-comment"># Copy, fill in the brackets, paste into Claude or ChatGPT</span>
+
 <span class="p-instruction">You are a senior commercial banking analyst. I have a meeting with 
 [COMPANY NAME], a [INDUSTRY] company with approximately $[REVENUE]M in 
 annual revenue based in [LOCATION].
@@ -3174,19 +3508,21 @@ Please provide:
 2. Key industry headwinds and tailwinds affecting their credit profile 
    right now (cite the specific macro factors)
 3. Likely banking needs based on their stage and industry (working 
-   capital, capex, M&amp;A, treasury services)
+   capital, capex, M&A, treasury services)
 4. Three specific questions I should ask to uncover banking opportunities
 5. Any red flags I should investigate before extending credit
 
 Format this as a pre-call briefing I can review in 5 minutes.</span>
-</div>
-</div>
-<div class="prompt-block">
-<div class="prompt-header">
-<div class="prompt-dot"></div>
-<span class="prompt-label">Pattern 2 — Credit Memo Narrative Draft</span>
-</div>
-<div class="prompt-body"><span class="p-comment"># Paste in the borrower's financial summary, then use this prompt</span>
+      </div>
+    </div>
+
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-dot"></div>
+        <span class="prompt-label">Pattern 2 — Credit Memo Narrative Draft</span>
+      </div>
+      <div class="prompt-body"><span class="p-comment"># Paste in the borrower's financial summary, then use this prompt</span>
+
 <span class="p-instruction">You are a senior credit analyst at a commercial bank. Based on the 
 financial information below, draft the narrative section of a credit 
 memo covering:
@@ -3195,510 +3531,730 @@ memo covering:
    management tenure, and competitive positioning
 2. Financial Analysis (3 paragraphs): revenue trends, margin performance, 
    leverage, and liquidity — citing specific numbers from the data
-3. Strengths &amp; Mitigants (bullet format): 4–5 credit positives
-4. Risks &amp; Concerns (bullet format): 4–5 credit risks with mitigants
+3. Strengths & Mitigants (bullet format): 4–5 credit positives
+4. Risks & Concerns (bullet format): 4–5 credit risks with mitigants
 5. Recommendation setup: one sentence framing the credit decision
 
 Tone: professional, direct, no hedging. Write as if for a credit 
 committee that values brevity and specificity.
 
 [PASTE FINANCIAL DATA HERE]</span>
-</div>
-</div>
-<div class="callout">
-<strong>The Golden Rule of Banking Prompts:</strong> Always tell the AI your role, the audience, 
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>The Golden Rule of Banking Prompts:</strong> Always tell the AI your role, the audience, 
       the format you need, and the tone. "Write a credit memo" produces garbage. 
       "You are a senior credit analyst. Draft a 500-word borrower overview for a credit committee 
       audience that values brevity. Tone: direct and analytical." produces something usable.
     </div>
-</div>
-<!-- 3.4 FINANCIAL SPREADING -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 3.4</p>
-<h2>Spreading Financial Statements with AI</h2>
-<p class="concept-body">
+  </div>
+
+  <!-- 3.4 FINANCIAL SPREADING -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 3.4</p>
+    <h2>Spreading Financial Statements with AI</h2>
+    <p class="concept-body">
       Financial statement analysis is one of the most time-intensive tasks in commercial banking —
       and one of the best candidates for AI assistance. AI won't replace your judgment on what the
       numbers mean, but it can dramatically accelerate the extraction, calculation, and initial
       interpretation of key metrics.
     </p>
-<div class="pillars">
-<div class="pillar-card">
-<span class="pillar-icon">📤</span>
-<h4>Extraction</h4>
-<p>Upload a PDF financial statement and use AI to extract key line items into a structured format. Works with CPA-compiled, reviewed, and audited statements.</p>
-</div>
-<div class="pillar-card">
-<span class="pillar-icon">📐</span>
-<h4>Ratio Calculation</h4>
-<p>Once extracted, AI calculates your standard credit ratios — leverage, coverage, liquidity — and benchmarks against industry medians automatically.</p>
-</div>
-<div class="pillar-card">
-<span class="pillar-icon">🚩</span>
-<h4>Flag &amp; Narrate</h4>
-<p>AI identifies deteriorating trends, covenant concerns, and anomalies — and drafts a plain-English summary of findings for your review.</p>
-</div>
-</div>
-<p class="concept-body" style="margin-top: 1.5rem;">The table below shows the key ratios to flag in every credit review, with typical threshold guidance:</p>
-<table class="ratio-table">
-<thead>
-<tr>
-<th>Ratio</th>
-<th>Formula</th>
-<th>Watch Level</th>
-<th>Action Level</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Debt / EBITDA</td>
-<td>Total Debt ÷ EBITDA</td>
-<td><span class="flag-yellow">3.5x – 4.5x</span></td>
-<td><span class="flag-red">&gt;4.5x</span></td>
-</tr>
-<tr>
-<td>DSCR</td>
-<td>EBITDA ÷ (Interest + CPLTD)</td>
-<td><span class="flag-yellow">1.10x – 1.25x</span></td>
-<td><span class="flag-red">&lt;1.10x</span></td>
-</tr>
-<tr>
-<td>Current Ratio</td>
-<td>Current Assets ÷ Current Liabilities</td>
-<td><span class="flag-yellow">1.0x – 1.2x</span></td>
-<td><span class="flag-red">&lt;1.0x</span></td>
-</tr>
-<tr>
-<td>Gross Margin</td>
-<td>Gross Profit ÷ Revenue</td>
-<td><span class="flag-yellow">Declining YoY</span></td>
-<td><span class="flag-red">&gt;300bps decline</span></td>
-</tr>
-<tr>
-<td>Fixed Charge Coverage</td>
-<td>(EBITDA – CapEx – Taxes) ÷ Fixed Charges</td>
-<td><span class="flag-yellow">1.10x – 1.25x</span></td>
-<td><span class="flag-red">&lt;1.10x</span></td>
-</tr>
-<tr>
-<td>Days Sales Outstanding</td>
-<td>(AR ÷ Revenue) × 365</td>
-<td><span class="flag-yellow">60 – 75 days</span></td>
-<td><span class="flag-red">&gt;75 days or rising fast</span></td>
-</tr>
-<tr>
-<td>Quick Ratio</td>
-<td>(Cash + AR) ÷ Current Liabilities</td>
-<td><span class="flag-yellow">0.7x – 1.0x</span></td>
-<td><span class="flag-red">&lt;0.7x</span></td>
-</tr>
-</tbody>
-</table>
-</div>
-<!-- 3.5 PORTFOLIO -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 3.5</p>
-<h2>Portfolio Monitoring &amp; Early Warning</h2>
-<p class="concept-body">
+
+    <div class="pillars">
+      <div class="pillar-card">
+        <span class="pillar-icon">📤</span>
+        <h4>Extraction</h4>
+        <p>Upload a PDF financial statement and use AI to extract key line items into a structured format. Works with CPA-compiled, reviewed, and audited statements.</p>
+      </div>
+      <div class="pillar-card">
+        <span class="pillar-icon">📐</span>
+        <h4>Ratio Calculation</h4>
+        <p>Once extracted, AI calculates your standard credit ratios — leverage, coverage, liquidity — and benchmarks against industry medians automatically.</p>
+      </div>
+      <div class="pillar-card">
+        <span class="pillar-icon">🚩</span>
+        <h4>Flag & Narrate</h4>
+        <p>AI identifies deteriorating trends, covenant concerns, and anomalies — and drafts a plain-English summary of findings for your review.</p>
+      </div>
+    </div>
+
+    <p class="concept-body" style="margin-top: 1.5rem;">The table below shows the key ratios to flag in every credit review, with typical threshold guidance:</p>
+
+    <table class="ratio-table">
+      <thead>
+        <tr>
+          <th>Ratio</th>
+          <th>Formula</th>
+          <th>Watch Level</th>
+          <th>Action Level</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Debt / EBITDA</td>
+          <td>Total Debt ÷ EBITDA</td>
+          <td><span class="flag-yellow">3.5x – 4.5x</span></td>
+          <td><span class="flag-red">&gt;4.5x</span></td>
+        </tr>
+        <tr>
+          <td>DSCR</td>
+          <td>EBITDA ÷ (Interest + CPLTD)</td>
+          <td><span class="flag-yellow">1.10x – 1.25x</span></td>
+          <td><span class="flag-red">&lt;1.10x</span></td>
+        </tr>
+        <tr>
+          <td>Current Ratio</td>
+          <td>Current Assets ÷ Current Liabilities</td>
+          <td><span class="flag-yellow">1.0x – 1.2x</span></td>
+          <td><span class="flag-red">&lt;1.0x</span></td>
+        </tr>
+        <tr>
+          <td>Gross Margin</td>
+          <td>Gross Profit ÷ Revenue</td>
+          <td><span class="flag-yellow">Declining YoY</span></td>
+          <td><span class="flag-red">&gt;300bps decline</span></td>
+        </tr>
+        <tr>
+          <td>Fixed Charge Coverage</td>
+          <td>(EBITDA – CapEx – Taxes) ÷ Fixed Charges</td>
+          <td><span class="flag-yellow">1.10x – 1.25x</span></td>
+          <td><span class="flag-red">&lt;1.10x</span></td>
+        </tr>
+        <tr>
+          <td>Days Sales Outstanding</td>
+          <td>(AR ÷ Revenue) × 365</td>
+          <td><span class="flag-yellow">60 – 75 days</span></td>
+          <td><span class="flag-red">&gt;75 days or rising fast</span></td>
+        </tr>
+        <tr>
+          <td>Quick Ratio</td>
+          <td>(Cash + AR) ÷ Current Liabilities</td>
+          <td><span class="flag-yellow">0.7x – 1.0x</span></td>
+          <td><span class="flag-red">&lt;0.7x</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 3.5 PORTFOLIO -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 3.5</p>
+    <h2>Portfolio Monitoring & Early Warning</h2>
+    <p class="concept-body">
       The best time to deal with a problem credit is 12 months before it becomes one.
       AI can dramatically improve the frequency and quality of portfolio monitoring by automating
       the data gathering that currently makes quarterly reviews so time-consuming.
     </p>
-<div class="callout">
-<strong>The Early Warning Prompt:</strong> "Review the following financial and news data for 
+
+    <div class="callout">
+      <strong>The Early Warning Prompt:</strong> "Review the following financial and news data for 
       [BORROWER]. Identify any signals of credit deterioration, covenant risk, or business stress. 
       For each signal identified, rate it Low / Medium / High and suggest the appropriate banker action. 
       Also identify any cross-sell opportunities based on the data."
     </div>
-<p class="concept-body">
+
+    <p class="concept-body">
       Run this prompt monthly against each credit in your portfolio using the borrower's latest financials,
       any public news, and your internal call reports. The output isn't a credit decision — it's a
       prioritization tool that tells you which credits need your attention <em>this week</em>.
     </p>
-<div class="workflow">
-<div class="workflow-step">
-<div class="step-num">📥</div>
-<div class="step-content">
-<h4>Data Inputs</h4>
-<p>Pull borrower financials from your core system, recent call reports, covenant compliance certificates, and any public news or filings.</p>
-</div>
-</div>
-<div class="workflow-step">
-<div class="step-num">🤖</div>
-<div class="step-content">
-<h4>AI Analysis Pass</h4>
-<p>Feed each credit's data through your early warning prompt. AI surfaces anomalies, deteriorating ratios, and concerning news in seconds per credit.</p>
-</div>
-</div>
-<div class="workflow-step">
-<div class="step-num">🎯</div>
-<div class="step-content">
-<h4>Prioritization Output</h4>
-<p>AI produces a ranked list: High Priority (call this week), Medium Priority (review next cycle), Low Priority (no action needed).</p>
-</div>
-</div>
-<div class="workflow-step">
-<div class="step-num">📞</div>
-<div class="step-content">
-<h4>Banker Action</h4>
-<p>You focus your time on the High Priority credits. AI has already drafted the call agenda, the borrower briefing, and the questions to ask.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="takeaways">
+
+    <div class="workflow">
+      <div class="workflow-step">
+        <div class="step-num">📥</div>
+        <div class="step-content">
+          <h4>Data Inputs</h4>
+          <p>Pull borrower financials from your core system, recent call reports, covenant compliance certificates, and any public news or filings.</p>
+        </div>
+      </div>
+      <div class="workflow-step">
+        <div class="step-num">🤖</div>
+        <div class="step-content">
+          <h4>AI Analysis Pass</h4>
+          <p>Feed each credit's data through your early warning prompt. AI surfaces anomalies, deteriorating ratios, and concerning news in seconds per credit.</p>
+        </div>
+      </div>
+      <div class="workflow-step">
+        <div class="step-num">🎯</div>
+        <div class="step-content">
+          <h4>Prioritization Output</h4>
+          <p>AI produces a ranked list: High Priority (call this week), Medium Priority (review next cycle), Low Priority (no action needed).</p>
+        </div>
+      </div>
+      <div class="workflow-step">
+        <div class="step-num">📞</div>
+        <div class="step-content">
+          <h4>Banker Action</h4>
+          <p>You focus your time on the High Priority credits. AI has already drafted the call agenda, the borrower briefing, and the questions to ask.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="takeaways">
+    
+
+  <!-- LESSON 3.3 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 3.3</p>
+    <h2>Automated Loan Memo Drafting</h2>
+    <p class="concept-body">
+      The best use of AI in credit writing is not “write my memo” — it’s “build a repeatable drafting pipeline.”
+      You provide the structure and facts; AI accelerates the first draft so you can spend your time on judgment.
+    </p>
+
+    <h3>Template: The 6-Part Memo Outline</h3>
+    <p class="concept-body">
+      Use this as your standard outline (then paste in deal facts):
+      <br/><strong>1)</strong> Borrower overview (who they are, what they do, ownership)
+      <br/><strong>2)</strong> Facility request (type, size, purpose, structure)
+      <br/><strong>3)</strong> Performance summary (revenue, EBITDA, cash conversion, trends)
+      <br/><strong>4)</strong> Credit positives (3–5 bullets)
+      <br/><strong>5)</strong> Risks + mitigants (3–5 bullets)
+      <br/><strong>6)</strong> Recommendation framing (risk rating, covenants, next steps)
+    </p>
+
+    <div class="case-study">
+      <div class="case-study-label">Prompt Lab</div>
+      <h3>Prompt: Draft a Memo Like a Credit Committee Analyst</h3>
+      <p class="concept-body">
+        <strong>System:</strong> You are a senior commercial credit analyst. Write concise, specific prose for a credit committee.
+        No hype, no fluff, no generic disclaimers. Use bullets where helpful.
+        <br/><br/>
+        <strong>User:</strong> Draft sections 1–6 using the outline above. Ask exactly 5 clarification questions if information is missing.
+        Tone: direct, banker-style. Use the facts below verbatim; do not invent numbers.
+        <br/><br/>
+        <strong>Facts:</strong><br/>
+        - Borrower: ____<br/>
+        - Industry: ____<br/>
+        - Ownership/Guarantees: ____<br/>
+        - Facility request: ____<br/>
+        - Financial summary (last 3 yrs + TTM): ____<br/>
+        - Collateral/structure: ____<br/>
+        - Key risks: ____<br/>
+        - Proposed covenants: ____<br/>
+      </p>
+    </div>
+
+    <h3>Quality Control Rules</h3>
+    <p class="concept-body">
+      Before you send anything: verify every number against the source; ensure risk factors are specific to the borrower;
+      remove generic language; and add your judgment in the “why now / why us” recommendation paragraph.
+    </p>
+  </div>
+
+
+  <!-- LESSON 3.6 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 3.6</p>
+    <h2>Client Insight Reports: 10 Minutes, Not 2 Hours</h2>
+    <p class="concept-body">
+      This lesson is about building a “pre-call briefing” that’s actually useful: concise, specific, and oriented around
+      decisions (capital needs, risks, and relationship strategy) — not a Wikipedia summary.
+    </p>
+
+    <h3>Inputs to Gather (5 minutes)</h3>
+    <p class="concept-body">
+      Pull (a) last 12 months of account activity highlights (if available), (b) latest financials, (c) 5–10 recent news items,
+      (d) industry snapshot, (e) relationship history (facilities, covenants, exceptions, product usage).
+    </p>
+
+    <div class="case-study">
+      <div class="case-study-label">Prompt Lab</div>
+      <h3>Prompt: One-Page Client Briefing</h3>
+      <p class="concept-body">
+        <strong>Role:</strong> You are a commercial banker preparing for a client call.
+        <br/><strong>Output:</strong> A one-page briefing with headings:
+        <br/>1) What changed since last call (bullets)
+        <br/>2) Likely capital/treasury needs in next 6–12 months
+        <br/>3) Credit watchouts (specific)
+        <br/>4) Two cross-sell angles (realistic)
+        <br/>5) Three questions to ask on the call
+        <br/><br/>
+        <strong>Constraints:</strong> Use only the facts provided. If unknown, write “Unknown — ask on call.”
+      </p>
+    </div>
+
+    <h3>Deliverable</h3>
+    <p class="concept-body">
+      Create a reusable “Client Brief” doc template and save it. The win here is repeatability: you should be able to
+      generate the same structure for any client in your book.
+    </p>
+  </div>
+
 <h3>Module 3 — Key Takeaways</h3>
-<div class="takeaway-item">The biggest productivity gain from AI in banking comes from structured prompt workflows — not one-off queries. Build your prompt library now.</div>
-<div class="takeaway-item">AI dramatically accelerates the prep work on every call: research, briefings, financial analysis. Use this to increase call frequency and quality, not just to save time.</div>
-<div class="takeaway-item">Loan memo drafting is one of the highest-ROI AI applications for RMs — AI handles the narrative framework, you add judgment and relationship context.</div>
-<div class="takeaway-item">Financial spreading with AI works best as an augmentation: AI extracts and flags, you interpret and decide. Never accept AI financial analysis without verifying the source numbers.</div>
-<div class="takeaway-item">Portfolio monitoring shifts from quarterly to continuous when AI does the data gathering — this is where you catch problems before they become losses.</div>
+    <div class="takeaway-item">The biggest productivity gain from AI in banking comes from structured prompt workflows — not one-off queries. Build your prompt library now.</div>
+    <div class="takeaway-item">AI dramatically accelerates the prep work on every call: research, briefings, financial analysis. Use this to increase call frequency and quality, not just to save time.</div>
+    <div class="takeaway-item">Loan memo drafting is one of the highest-ROI AI applications for RMs — AI handles the narrative framework, you add judgment and relationship context.</div>
+    <div class="takeaway-item">Financial spreading with AI works best as an augmentation: AI extracts and flags, you interpret and decide. Never accept AI financial analysis without verifying the source numbers.</div>
+    <div class="takeaway-item">Portfolio monitoring shifts from quarterly to continuous when AI does the data gathering — this is where you catch problems before they become losses.</div>
+  </div>
+
+  <div class="module-nav">
+    <a href="#module2" class="nav-btn">← Module 2: AI Agents</a>
+    <a href="#module4" class="nav-btn next">Module 4: Banks & Fintech Strategy →</a>
+  </div>
+
 </div>
-<div class="module-nav">
-<a class="nav-btn" href="#module2">← Module 2: AI Agents</a>
-<a class="nav-btn next" href="#module4">Module 4: Banks &amp; Fintech Strategy →</a>
-</div>
-</div></section><section class="module-section" id="module4"><div class="page-wrap">
-<div class="breadcrumb">
-<a href="#top">Home</a>
-<span>→</span>
-<span>Module 04</span>
-<span>→</span>
-<span>Banks × Fintech: The Road Ahead</span>
-</div>
-<div class="module-header">
-<div class="module-tag">Module 04</div>
-<h1>Banks × Fintech: <em>The Road Ahead</em></h1>
-<p class="module-intro">
+
+</section>
+
+<section id="module4" class="module-section">
+
+
+<nav>
+  <a href="#top" class="nav-logo">FinTech<span>Frontier</span></a>
+  <a href="#top" class="nav-back">← All Modules</a>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="breadcrumb">
+    <a href="#top">Home</a>
+    <span>→</span>
+    <span>Module 04</span>
+    <span>→</span>
+    <span>Banks × Fintech: The Road Ahead</span>
+  </div>
+
+  <div class="module-header">
+    <div class="module-tag">Module 04</div>
+    <h1>Banks × Fintech: <em>The Road Ahead</em></h1>
+    <p class="module-intro">
       The relationship between banks and fintech companies is not simply competitive — it is complex,
       co-dependent, and rapidly evolving. This module gives you the strategic frameworks to understand
       where the industry is heading, how to advise your clients navigating these changes, and how
       to position your bank for the next decade.
     </p>
-<div class="module-meta">
-<div class="meta-item">⏱ <span>~5 hours</span> total reading + frameworks</div>
-<div class="meta-item">📚 <span>5 lessons</span></div>
-<div class="meta-item">🧪 <span>2 frameworks + 1 scenario lab</span></div>
-<div class="meta-item">🎯 <span>Intermediate–Advanced</span></div>
-</div>
-</div>
-<div class="lessons-section">
-<h2>Lessons in This Module</h2>
-<div class="lesson-list">
-<div class="lesson-item">
-<span class="lesson-num">4.1</span>
-<div class="lesson-content">
-<h3>The Competitive Landscape: Where Fintech Wins and Where Banks Win</h3>
-<p>An honest assessment of where fintechs have structural advantages, and where traditional banks retain durable competitive moats.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">4.2</span>
-<div class="lesson-content">
-<h3>Buy, Build, or Partner: Strategic Frameworks for Banks</h3>
-<p>The three strategic responses to fintech disruption — when each makes sense, and how to evaluate which path fits your bank's capabilities.</p>
-</div>
-<span class="lesson-badge badge-framework">Framework</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">4.3</span>
-<div class="lesson-content">
-<h3>Open Banking &amp; API Ecosystems</h3>
-<p>Section 1033 finalization, Plaid, and what data portability means for your bank's deposit relationships and product strategy.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">4.4</span>
-<div class="lesson-content">
-<h3>Regulatory Evolution: OCC, CFPB, Basel &amp; Fintech</h3>
-<p>The regulatory pendulum: how supervision of fintech is tightening, and what that means for bank-fintech partnerships.</p>
-</div>
-<span class="lesson-badge badge-reading">Reading</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">4.5</span>
-<div class="lesson-content">
-<h3>Lab: Fintech Threat Assessment for Your Market</h3>
-<p>Apply the threat assessment framework to your bank's specific geography, client segments, and product set. Where are you most vulnerable?</p>
-</div>
-<span class="lesson-badge badge-lab">Lab</span>
-</div>
-</div>
-</div>
-<!-- 4.1 COMPETITIVE LANDSCAPE -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 4.1</p>
-<h2>Where Fintech Wins, Where Banks Win</h2>
-<p class="concept-body">
+    <div class="module-meta">
+      <div class="meta-item">⏱ <span>~5 hours</span> total reading + frameworks</div>
+      <div class="meta-item">📚 <span>5 lessons</span></div>
+      <div class="meta-item">🧪 <span>2 frameworks + 1 scenario lab</span></div>
+      <div class="meta-item">🎯 <span>Intermediate–Advanced</span></div>
+    </div>
+  </div>
+
+  <div class="lessons-section">
+    <h2>Lessons in This Module</h2>
+    <div class="lesson-list">
+      <div class="lesson-item">
+        <span class="lesson-num">4.1</span>
+        <div class="lesson-content">
+          <h3>The Competitive Landscape: Where Fintech Wins and Where Banks Win</h3>
+          <p>An honest assessment of where fintechs have structural advantages, and where traditional banks retain durable competitive moats.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">4.2</span>
+        <div class="lesson-content">
+          <h3>Buy, Build, or Partner: Strategic Frameworks for Banks</h3>
+          <p>The three strategic responses to fintech disruption — when each makes sense, and how to evaluate which path fits your bank's capabilities.</p>
+        </div>
+        <span class="lesson-badge badge-framework">Framework</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">4.3</span>
+        <div class="lesson-content">
+          <h3>Open Banking & API Ecosystems</h3>
+          <p>Section 1033 finalization, Plaid, and what data portability means for your bank's deposit relationships and product strategy.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">4.4</span>
+        <div class="lesson-content">
+          <h3>Regulatory Evolution: OCC, CFPB, Basel & Fintech</h3>
+          <p>The regulatory pendulum: how supervision of fintech is tightening, and what that means for bank-fintech partnerships.</p>
+        </div>
+        <span class="lesson-badge badge-reading">Reading</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">4.5</span>
+        <div class="lesson-content">
+          <h3>Lab: Fintech Threat Assessment for Your Market</h3>
+          <p>Apply the threat assessment framework to your bank's specific geography, client segments, and product set. Where are you most vulnerable?</p>
+        </div>
+        <span class="lesson-badge badge-lab">Lab</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.1 COMPETITIVE LANDSCAPE -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 4.1</p>
+    <h2>Where Fintech Wins, Where Banks Win</h2>
+    <p class="concept-body">
       The narrative of "fintech will disrupt banking" has proven to be both right and wrong — right about
       specific products and customer segments, wrong about the wholesale replacement of the banking relationship.
       Understanding the precise boundaries of each competitor's advantage is essential for strategy.
     </p>
-<div class="threat-grid">
-<div class="threat-card">
-<span class="threat-level threat-high">High Threat</span>
-<h4>SMB Payments &amp; Treasury</h4>
-<p>Fintechs like Brex, Ramp, and Mercury have built vastly superior UI/UX for SMB financial management. Their products are genuinely better on dimensions like onboarding speed, software integrations, and real-time visibility.</p>
-<p class="threat-examples">Competitors: Brex, Ramp, Mercury, Relay, Novo</p>
-</div>
-<div class="threat-card">
-<span class="threat-level threat-high">High Threat</span>
-<h4>Small Business Lending</h4>
-<p>Alternative lenders can approve and fund in 24 hours using cash flow data. For credits under $500K, speed and simplicity often matter more than rate — a race banks are losing by design.</p>
-<p class="threat-examples">Competitors: Bluevine, Fundbox, Kabbage (AMEX)</p>
-</div>
-<div class="threat-card">
-<span class="threat-level threat-medium">Medium Threat</span>
-<h4>Mid-Market Treasury Services</h4>
-<p>Treasury management fintechs are encroaching on the $10M–$100M revenue segment, offering API-driven connectivity and automation that legacy TMS platforms don't match. Relationship still matters here, but product gaps are widening.</p>
-<p class="threat-examples">Competitors: Kyriba, Coupa, Netting platforms</p>
-</div>
-<div class="threat-card">
-<span class="threat-level threat-emerging">Emerging Threat</span>
-<h4>Cross-Border Payments</h4>
-<p>Stablecoins and blockchain-based payment rails are beginning to offer meaningful alternatives to correspondent banking for certain corridors and client types. Still early, but trajectory is clear.</p>
-<p class="threat-examples">Competitors: Circle (USDC), Stellar, Ripple ODL</p>
-</div>
-<div class="threat-card">
-<span class="threat-level threat-low">Bank Advantage</span>
-<h4>Complex Credit Relationships</h4>
-<p>Large, complex credit facilities — syndicated loans, leveraged buyouts, asset-based lending — still require relationship depth, regulatory capital, and the ability to hold risk that fintechs cannot match.</p>
-<p class="threat-examples">Bank moat: capital, charter, relationships, structure</p>
-</div>
-<div class="threat-card">
-<span class="threat-level threat-low">Bank Advantage</span>
-<h4>Regulatory Trust &amp; Deposit Insurance</h4>
-<p>Particularly in uncertain environments, the FDIC guarantee, regulatory oversight, and decades of operational stability matter — especially to CFOs and treasurers managing operating accounts for large businesses.</p>
-<p class="threat-examples">Bank moat: FDIC, charter, systemic trust, compliance</p>
-</div>
-</div>
-</div>
-<!-- 4.2 BUY BUILD PARTNER -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 4.2</p>
-<h2>Buy, Build, or Partner</h2>
-<p class="concept-body">
+
+    <div class="threat-grid">
+      <div class="threat-card">
+        <span class="threat-level threat-high">High Threat</span>
+        <h4>SMB Payments & Treasury</h4>
+        <p>Fintechs like Brex, Ramp, and Mercury have built vastly superior UI/UX for SMB financial management. Their products are genuinely better on dimensions like onboarding speed, software integrations, and real-time visibility.</p>
+        <p class="threat-examples">Competitors: Brex, Ramp, Mercury, Relay, Novo</p>
+      </div>
+      <div class="threat-card">
+        <span class="threat-level threat-high">High Threat</span>
+        <h4>Small Business Lending</h4>
+        <p>Alternative lenders can approve and fund in 24 hours using cash flow data. For credits under $500K, speed and simplicity often matter more than rate — a race banks are losing by design.</p>
+        <p class="threat-examples">Competitors: Bluevine, Fundbox, Kabbage (AMEX)</p>
+      </div>
+      <div class="threat-card">
+        <span class="threat-level threat-medium">Medium Threat</span>
+        <h4>Mid-Market Treasury Services</h4>
+        <p>Treasury management fintechs are encroaching on the $10M–$100M revenue segment, offering API-driven connectivity and automation that legacy TMS platforms don't match. Relationship still matters here, but product gaps are widening.</p>
+        <p class="threat-examples">Competitors: Kyriba, Coupa, Netting platforms</p>
+      </div>
+      <div class="threat-card">
+        <span class="threat-level threat-emerging">Emerging Threat</span>
+        <h4>Cross-Border Payments</h4>
+        <p>Stablecoins and blockchain-based payment rails are beginning to offer meaningful alternatives to correspondent banking for certain corridors and client types. Still early, but trajectory is clear.</p>
+        <p class="threat-examples">Competitors: Circle (USDC), Stellar, Ripple ODL</p>
+      </div>
+      <div class="threat-card">
+        <span class="threat-level threat-low">Bank Advantage</span>
+        <h4>Complex Credit Relationships</h4>
+        <p>Large, complex credit facilities — syndicated loans, leveraged buyouts, asset-based lending — still require relationship depth, regulatory capital, and the ability to hold risk that fintechs cannot match.</p>
+        <p class="threat-examples">Bank moat: capital, charter, relationships, structure</p>
+      </div>
+      <div class="threat-card">
+        <span class="threat-level threat-low">Bank Advantage</span>
+        <h4>Regulatory Trust & Deposit Insurance</h4>
+        <p>Particularly in uncertain environments, the FDIC guarantee, regulatory oversight, and decades of operational stability matter — especially to CFOs and treasurers managing operating accounts for large businesses.</p>
+        <p class="threat-examples">Bank moat: FDIC, charter, systemic trust, compliance</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.2 BUY BUILD PARTNER -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 4.2</p>
+    <h2>Buy, Build, or Partner</h2>
+    <p class="concept-body">
       Every bank faces the same three-way strategic choice when a fintech capability gap is identified.
       There is no universally correct answer — the right path depends on your bank's size, technical
       capabilities, timeline, and the strategic importance of the capability in question.
     </p>
-<div class="strategy-matrix">
-<div class="matrix-card">
-<div class="matrix-header">
-<span class="matrix-icon">🏗️</span>
-<span class="matrix-label ml-build">Build</span>
-</div>
-<h4>Build In-House</h4>
-<p>Develop the capability internally using your own tech team or through an internal innovation lab.</p>
-<div class="matrix-pros">✓ Full control over IP<br/>✓ Tailored to your specific needs<br/>✓ No vendor dependency</div>
-<div class="matrix-cons">✗ Slowest to market (12–36 months)<br/>✗ Requires deep engineering talent<br/>✗ High ongoing maintenance</div>
-</div>
-<div class="matrix-card">
-<div class="matrix-header">
-<span class="matrix-icon">🛒</span>
-<span class="matrix-label ml-buy">Buy / Acquire</span>
-</div>
-<h4>Acquire a Fintech</h4>
-<p>Purchase an existing fintech company to bring its technology, talent, and customer base in-house.</p>
-<div class="matrix-pros">✓ Immediate capability acquisition<br/>✓ Established technology and team<br/>✓ Eliminates a competitor</div>
-<div class="matrix-cons">✗ Integration complexity is massive<br/>✗ Culture clash destroys value<br/>✗ Expensive (3–10x revenue multiples)</div>
-</div>
-<div class="matrix-card">
-<div class="matrix-header">
-<span class="matrix-icon">🤝</span>
-<span class="matrix-label ml-partner">Partner</span>
-</div>
-<h4>Strategic Partnership</h4>
-<p>Integrate a fintech's product into your bank's offering through a commercial partnership or white-label arrangement.</p>
-<div class="matrix-pros">✓ Fastest to market (3–9 months)<br/>✓ Lower upfront cost<br/>✓ Leverage fintech's ongoing R&amp;D</div>
-<div class="matrix-cons">✗ Vendor concentration risk<br/>✗ Limited customization<br/>✗ Regulatory accountability remains yours</div>
-</div>
-</div>
-<div class="callout">
-<strong>The Decision Framework:</strong> For commodity capabilities (payments processing, basic KYC), 
+
+    <div class="strategy-matrix">
+      <div class="matrix-card">
+        <div class="matrix-header">
+          <span class="matrix-icon">🏗️</span>
+          <span class="matrix-label ml-build">Build</span>
+        </div>
+        <h4>Build In-House</h4>
+        <p>Develop the capability internally using your own tech team or through an internal innovation lab.</p>
+        <div class="matrix-pros">✓ Full control over IP<br>✓ Tailored to your specific needs<br>✓ No vendor dependency</div>
+        <div class="matrix-cons">✗ Slowest to market (12–36 months)<br>✗ Requires deep engineering talent<br>✗ High ongoing maintenance</div>
+      </div>
+      <div class="matrix-card">
+        <div class="matrix-header">
+          <span class="matrix-icon">🛒</span>
+          <span class="matrix-label ml-buy">Buy / Acquire</span>
+        </div>
+        <h4>Acquire a Fintech</h4>
+        <p>Purchase an existing fintech company to bring its technology, talent, and customer base in-house.</p>
+        <div class="matrix-pros">✓ Immediate capability acquisition<br>✓ Established technology and team<br>✓ Eliminates a competitor</div>
+        <div class="matrix-cons">✗ Integration complexity is massive<br>✗ Culture clash destroys value<br>✗ Expensive (3–10x revenue multiples)</div>
+      </div>
+      <div class="matrix-card">
+        <div class="matrix-header">
+          <span class="matrix-icon">🤝</span>
+          <span class="matrix-label ml-partner">Partner</span>
+        </div>
+        <h4>Strategic Partnership</h4>
+        <p>Integrate a fintech's product into your bank's offering through a commercial partnership or white-label arrangement.</p>
+        <div class="matrix-pros">✓ Fastest to market (3–9 months)<br>✓ Lower upfront cost<br>✓ Leverage fintech's ongoing R&D</div>
+        <div class="matrix-cons">✗ Vendor concentration risk<br>✗ Limited customization<br>✗ Regulatory accountability remains yours</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>The Decision Framework:</strong> For commodity capabilities (payments processing, basic KYC), 
       partner or buy. For differentiated capabilities that define your competitive positioning, 
       build or acquire. For capabilities that are early-stage and untested, partner first — with 
       an option to acquire if the relationship proves strategic.
     </div>
-</div>
-<!-- 4.3 OPEN BANKING -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 4.3</p>
-<h2>Open Banking &amp; API Ecosystems</h2>
-<p class="concept-body">
+  </div>
+
+  <!-- 4.3 OPEN BANKING -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 4.3</p>
+    <h2>Open Banking & API Ecosystems</h2>
+    <p class="concept-body">
       The CFPB's finalization of Section 1033 of the Dodd-Frank Act in 2024 marked a turning point
       for open banking in the U.S. Banks are now required to make consumer financial data available
       to authorized third parties through secure APIs — on the customer's request.
     </p>
-<p class="concept-body">
+    <p class="concept-body">
       For commercial bankers, the implications are significant: your clients' financial data — transaction
       history, account balances, cash flow patterns — can now flow to fintech competitors with customer consent.
       This changes the data moat that banks have long relied on.
     </p>
-<div class="open-banking-grid">
-<div class="ob-card">
-<h4>What It Means for Deposits</h4>
-<p>When a client's financial data can instantly port to a competing institution, switching costs decline. Relationship depth and service quality become more important than data lock-in.</p>
-</div>
-<div class="ob-card">
-<h4>What It Means for Credit</h4>
-<p>Fintechs can now access the same cash flow data that your bank sees in your operating accounts — and use it to underwrite the same clients faster and with more sophisticated models.</p>
-</div>
-<div class="ob-card">
-<h4>The Opportunity</h4>
-<p>Open banking is not only a threat. Banks that build API-friendly infrastructure can embed their products into the software your clients use daily — becoming invisible but essential infrastructure.</p>
-</div>
-<div class="ob-card">
-<h4>The Banker's Response</h4>
-<p>Deepen relationships beyond the account. Become the advisor who helps clients navigate their full financial ecosystem — not just the institution holding their operating account.</p>
-</div>
-</div>
-</div>
-<!-- 4.4 FUTURE TIMELINE -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 4.4 + Synthesis</p>
-<h2>The Road to 2030</h2>
-<p class="concept-body">
+
+    <div class="open-banking-grid">
+      <div class="ob-card">
+        <h4>What It Means for Deposits</h4>
+        <p>When a client's financial data can instantly port to a competing institution, switching costs decline. Relationship depth and service quality become more important than data lock-in.</p>
+      </div>
+      <div class="ob-card">
+        <h4>What It Means for Credit</h4>
+        <p>Fintechs can now access the same cash flow data that your bank sees in your operating accounts — and use it to underwrite the same clients faster and with more sophisticated models.</p>
+      </div>
+      <div class="ob-card">
+        <h4>The Opportunity</h4>
+        <p>Open banking is not only a threat. Banks that build API-friendly infrastructure can embed their products into the software your clients use daily — becoming invisible but essential infrastructure.</p>
+      </div>
+      <div class="ob-card">
+        <h4>The Banker's Response</h4>
+        <p>Deepen relationships beyond the account. Become the advisor who helps clients navigate their full financial ecosystem — not just the institution holding their operating account.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.4 FUTURE TIMELINE -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 4.4 + Synthesis</p>
+    <h2>The Road to 2030</h2>
+    <p class="concept-body">
       The next five years will see more structural change in commercial banking than the previous twenty.
       Here is a grounded view of the key developments to watch — and prepare for.
     </p>
-<div class="future-timeline">
-<div class="future-item">
-<p class="future-year">2025–2026</p>
-<h4>AI Copilots Become Standard Issue</h4>
-<p>Every major bank deploys AI assistant tools for RMs — loan memo drafting, financial analysis, call prep. The banks that trained their bankers to use these tools well pull ahead. Those that didn't face productivity gaps.</p>
-</div>
-<div class="future-item">
-<p class="future-year">2026–2027</p>
-<h4>Open Banking Changes the Data Game</h4>
-<p>Section 1033 compliance is fully in effect. Fintechs are accessing business cash flow data across competing banks. The underwriting data moat is gone for anyone not differentiated by relationship.</p>
-</div>
-<div class="future-item">
-<p class="future-year">2027–2028</p>
-<h4>Real-Time Everything</h4>
-<p>FedNow and RTP reach critical mass adoption. Corporate treasury clients expect real-time liquidity visibility and same-day settlement as the default. Banks that can't provide it lose operating account primacy.</p>
-</div>
-<div class="future-item">
-<p class="future-year">2028–2030</p>
-<h4>Embedded Finance Matures — Banks Choose Their Role</h4>
-<p>The question for every commercial bank: are you the infrastructure provider (BaaS), the relationship manager (advisor), or the product integrator (fintech aggregator)? Few banks successfully operate all three. This is the strategic choice that will define the next generation of commercial banking franchises.</p>
-</div>
-</div>
-</div>
-<div class="takeaways">
+
+    <div class="future-timeline">
+      <div class="future-item">
+        <p class="future-year">2025–2026</p>
+        <h4>AI Copilots Become Standard Issue</h4>
+        <p>Every major bank deploys AI assistant tools for RMs — loan memo drafting, financial analysis, call prep. The banks that trained their bankers to use these tools well pull ahead. Those that didn't face productivity gaps.</p>
+      </div>
+      <div class="future-item">
+        <p class="future-year">2026–2027</p>
+        <h4>Open Banking Changes the Data Game</h4>
+        <p>Section 1033 compliance is fully in effect. Fintechs are accessing business cash flow data across competing banks. The underwriting data moat is gone for anyone not differentiated by relationship.</p>
+      </div>
+      <div class="future-item">
+        <p class="future-year">2027–2028</p>
+        <h4>Real-Time Everything</h4>
+        <p>FedNow and RTP reach critical mass adoption. Corporate treasury clients expect real-time liquidity visibility and same-day settlement as the default. Banks that can't provide it lose operating account primacy.</p>
+      </div>
+      <div class="future-item">
+        <p class="future-year">2028–2030</p>
+        <h4>Embedded Finance Matures — Banks Choose Their Role</h4>
+        <p>The question for every commercial bank: are you the infrastructure provider (BaaS), the relationship manager (advisor), or the product integrator (fintech aggregator)? Few banks successfully operate all three. This is the strategic choice that will define the next generation of commercial banking franchises.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="takeaways">
+    
+
+  <!-- LESSON 4.5 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 4.5</p>
+    <h2>Lab: Fintech Threat Assessment for Your Market</h2>
+    <p class="concept-body">
+      This lab is a practical strategy exercise: identify where fintech is most likely to erode your bank’s revenues
+      (fees + deposits + lending) in your specific geography and client mix — then define a response.
+    </p>
+
+    <h3>Step 1 — Pick your “market slice”</h3>
+    <p class="concept-body">
+      Choose one: (a) Bay Area professional services, (b) light industrial/manufacturing, (c) construction,
+      (d) sponsor-backed lower middle market, or (e) your actual coverage vertical.
+    </p>
+
+    <h3>Step 2 — Score threat by product line</h3>
+    <p class="concept-body">
+      For each row, score <strong>Threat (1–5)</strong> and note 1–2 competitors:
+      <br/>• Payments/treasury
+      <br/>• Deposits/cash management
+      <br/>• Lending (speed/underwriting)
+      <br/>• Spend management
+      <br/>• Cross-border/FX
+      <br/>• Data/analytics (insights layer)
+    </p>
+
+    <div class="case-study">
+      <div class="case-study-label">Deliverable</div>
+      <h3>One-Page Threat Map</h3>
+      <p class="concept-body">
+        Write a one-pager with:
+        <br/>1) Top 3 threats (who + why)
+        <br/>2) Top 3 bank advantages you can lean on (charter, balance sheet, relationship, risk appetite, underwriting expertise)
+        <br/>3) Two partnership targets (where “partner” beats “build”)
+        <br/>4) One “Monday move” you can implement immediately (e.g., client fintech discovery questions, treasury modernization pitch)
+      </p>
+    </div>
+  </div>
+
 <h3>Module 4 — Key Takeaways</h3>
-<div class="takeaway-item">Fintech competition is most acute in SMB banking and payments — less so in complex commercial credit where capital, charter, and relationships are durable moats.</div>
-<div class="takeaway-item">The right fintech response (buy/build/partner) depends on strategic importance and time-to-market requirements — there is no universal answer.</div>
-<div class="takeaway-item">Section 1033 / open banking eliminates data lock-in as a strategy. Relationship depth, advisory value, and product integration quality become the new moats.</div>
-<div class="takeaway-item">Regulatory tightening of fintech (bank partnership rules, BaaS oversight, capital requirements) actually advantages traditional banks in the medium term.</div>
-<div class="takeaway-item">The bankers who will thrive through 2030 are those who combine credit judgment with technology fluency and the ability to advise clients on their own fintech ecosystem.</div>
+    <div class="takeaway-item">Fintech competition is most acute in SMB banking and payments — less so in complex commercial credit where capital, charter, and relationships are durable moats.</div>
+    <div class="takeaway-item">The right fintech response (buy/build/partner) depends on strategic importance and time-to-market requirements — there is no universal answer.</div>
+    <div class="takeaway-item">Section 1033 / open banking eliminates data lock-in as a strategy. Relationship depth, advisory value, and product integration quality become the new moats.</div>
+    <div class="takeaway-item">Regulatory tightening of fintech (bank partnership rules, BaaS oversight, capital requirements) actually advantages traditional banks in the medium term.</div>
+    <div class="takeaway-item">The bankers who will thrive through 2030 are those who combine credit judgment with technology fluency and the ability to advise clients on their own fintech ecosystem.</div>
+  </div>
+
+  <div class="module-nav">
+    <a href="#module3" class="nav-btn">← Module 3: AI for Daily Work</a>
+    <a href="#module5" class="nav-btn next">Module 5: Learn to Code →</a>
+  </div>
+
 </div>
-<div class="module-nav">
-<a class="nav-btn" href="#module3">← Module 3: AI for Daily Work</a>
-<a class="nav-btn next" href="#module5">Module 5: Learn to Code →</a>
-</div>
-</div></section><section class="module-section" id="module5"><div class="page-wrap">
-<div class="breadcrumb">
-<a href="#top">Home</a>
-<span>→</span>
-<span>Module 05</span>
-<span>→</span>
-<span>Learn to Code: Banker Edition</span>
-</div>
-<div class="module-header">
-<div class="module-tag">Module 05 — Final Module</div>
-<h1>Learn to <em>Code</em>: Banker Edition</h1>
-<p class="module-intro">
+
+</section>
+
+<section id="module5" class="module-section">
+
+
+<nav>
+  <a href="#top" class="nav-logo">FinTech<span>Frontier</span></a>
+  <a href="#top" class="nav-back">← All Modules</a>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="breadcrumb">
+    <a href="#top">Home</a>
+    <span>→</span>
+    <span>Module 05</span>
+    <span>→</span>
+    <span>Learn to Code: Banker Edition</span>
+  </div>
+
+  <div class="module-header">
+    <div class="module-tag">Module 05 — Final Module</div>
+    <h1>Learn to <em>Code</em>: Banker Edition</h1>
+    <p class="module-intro">
       You do not need to become a software engineer. You need just enough Python to automate
       the repetitive parts of your job, build simple tools that impress clients, and have intelligent
       conversations with your bank's tech team. This module takes you from zero to genuinely useful
       in 10 weeks — no CS degree required.
     </p>
-<div class="module-meta">
-<div class="meta-item">⏱ <span>~8 hours</span> reading + hands-on coding</div>
-<div class="meta-item">📚 <span>6 lessons</span></div>
-<div class="meta-item">🧪 <span>4 coding labs + 1 capstone project</span></div>
-<div class="meta-item">🎯 <span>Complete Beginner Welcome</span></div>
-</div>
-</div>
-<div class="lessons-section">
-<h2>Lessons in This Module</h2>
-<div class="lesson-list">
-<div class="lesson-item">
-<span class="lesson-num">5.1</span>
-<div class="lesson-content">
-<h3>Setup: Python, Jupyter &amp; GitHub in 30 Minutes</h3>
-<p>Get your coding environment running. We use Jupyter notebooks so you can run code line-by-line — no command line expertise needed.</p>
-</div>
-<span class="lesson-badge badge-lab">Setup Lab</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">5.2</span>
-<div class="lesson-content">
-<h3>Python Basics for Finance Professionals</h3>
-<p>Variables, lists, loops, and functions — taught entirely through examples that look like real banking tasks. No abstract "Hello World" exercises here.</p>
-</div>
-<span class="lesson-badge badge-code">Coding</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">5.3</span>
-<div class="lesson-content">
-<h3>Automating Excel &amp; Financial Data with Pandas</h3>
-<p>Replace your most painful Excel workflows with Python scripts that run in seconds. Loan tape analysis, ratio spreading, portfolio summaries — automated.</p>
-</div>
-<span class="lesson-badge badge-lab">Coding Lab</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">5.4</span>
-<div class="lesson-content">
-<h3>Calling APIs: Pull Live Market &amp; Company Data</h3>
-<p>Learn to pull live interest rates, company financials, industry data, and news directly into your Python scripts — no manual data entry.</p>
-</div>
-<span class="lesson-badge badge-code">Coding</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">5.5</span>
-<div class="lesson-content">
-<h3>Building Your First AI Tool with the Claude API</h3>
-<p>Connect to Anthropic's Claude API and build a simple tool that takes a borrower's financials and returns a credit analysis narrative.</p>
-</div>
-<span class="lesson-badge badge-lab">Coding Lab</span>
-</div>
-<div class="lesson-item">
-<span class="lesson-num">5.6</span>
-<div class="lesson-content">
-<h3>Capstone: Deploy a Client-Facing Tool on GitHub Pages</h3>
-<p>Build and deploy a simple interactive tool your clients can actually use — an industry benchmark calculator, a loan sizing tool, or a rate scenario analyzer.</p>
-</div>
-<span class="lesson-badge badge-project">Capstone</span>
-</div>
-</div>
-</div>
-<!-- 5.2 PYTHON BASICS -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 5.2</p>
-<h2>Python Basics — Banking Style</h2>
-<p class="concept-body">
+    <div class="module-meta">
+      <div class="meta-item">⏱ <span>~8 hours</span> reading + hands-on coding</div>
+      <div class="meta-item">📚 <span>6 lessons</span></div>
+      <div class="meta-item">🧪 <span>4 coding labs + 1 capstone project</span></div>
+      <div class="meta-item">🎯 <span>Complete Beginner Welcome</span></div>
+    </div>
+  </div>
+
+  <div class="lessons-section">
+    <h2>Lessons in This Module</h2>
+    <div class="lesson-list">
+      <div class="lesson-item">
+        <span class="lesson-num">5.1</span>
+        <div class="lesson-content">
+          <h3>Setup: Python, Jupyter & GitHub in 30 Minutes</h3>
+          <p>Get your coding environment running. We use Jupyter notebooks so you can run code line-by-line — no command line expertise needed.</p>
+        </div>
+        <span class="lesson-badge badge-lab">Setup Lab</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">5.2</span>
+        <div class="lesson-content">
+          <h3>Python Basics for Finance Professionals</h3>
+          <p>Variables, lists, loops, and functions — taught entirely through examples that look like real banking tasks. No abstract "Hello World" exercises here.</p>
+        </div>
+        <span class="lesson-badge badge-code">Coding</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">5.3</span>
+        <div class="lesson-content">
+          <h3>Automating Excel & Financial Data with Pandas</h3>
+          <p>Replace your most painful Excel workflows with Python scripts that run in seconds. Loan tape analysis, ratio spreading, portfolio summaries — automated.</p>
+        </div>
+        <span class="lesson-badge badge-lab">Coding Lab</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">5.4</span>
+        <div class="lesson-content">
+          <h3>Calling APIs: Pull Live Market & Company Data</h3>
+          <p>Learn to pull live interest rates, company financials, industry data, and news directly into your Python scripts — no manual data entry.</p>
+        </div>
+        <span class="lesson-badge badge-code">Coding</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">5.5</span>
+        <div class="lesson-content">
+          <h3>Building Your First AI Tool with the Claude API</h3>
+          <p>Connect to Anthropic's Claude API and build a simple tool that takes a borrower's financials and returns a credit analysis narrative.</p>
+        </div>
+        <span class="lesson-badge badge-lab">Coding Lab</span>
+      </div>
+      <div class="lesson-item">
+        <span class="lesson-num">5.6</span>
+        <div class="lesson-content">
+          <h3>Capstone: Deploy a Client-Facing Tool on GitHub Pages</h3>
+          <p>Build and deploy a simple interactive tool your clients can actually use — an industry benchmark calculator, a loan sizing tool, or a rate scenario analyzer.</p>
+        </div>
+        <span class="lesson-badge badge-project">Capstone</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5.2 PYTHON BASICS -->
+  <div class="concept-section">
+    <p class="concept-lead">
+
+  <!-- LESSON 5.1 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 5.1</p>
+    <h2>Python Basics for Finance Professionals</h2>
+    <p class="concept-body">
+      Your goal isn’t to become a software engineer — it’s to become dangerous enough to automate repetitive work.
+      Think: load data, clean it, run calculations, export results, and (optionally) call an API.
+    </p>
+
+    <h3>The 5 Concepts You Need</h3>
+    <p class="concept-body">
+      1) Variables &amp; types (numbers, strings, lists, dicts)<br/>
+      2) Conditionals (if/else)<br/>
+      3) Loops (for)<br/>
+      4) Functions (reusable logic)<br/>
+      5) Reading/writing files (CSV/Excel)
+    </p>
+
+    <div class="case-study">
+      <div class="case-study-label">Mini Lab</div>
+      <h3>Compute Leverage + Flag Exceptions</h3>
+      <p class="concept-body">
+        Start with a small list of borrowers (name, debt, EBITDA). Compute leverage and flag anything above 4.5x.
+        The output should be a simple table printed to the screen.
+      </p>
+    </div>
+  </div>
+
+Lesson 5.2</p>
+    <h2>Python Basics — Banking Style</h2>
+    <p class="concept-body">
       The best way to learn Python as a banker is to learn it through problems you actually have.
       Below are four foundational concepts, each illustrated with a real banking calculation.
       Run these in your Jupyter notebook as you read.
     </p>
-<div class="code-block">
-<div class="code-header">
-<div class="code-dots"><span class="dot d-r"></span><span class="dot d-y"></span><span class="dot d-g"></span></div>
-<span class="code-filename">lesson_5_2_basics.py</span>
-</div>
-<div class="code-body">
+
+    <div class="code-block">
+      <div class="code-header">
+        <div class="code-dots"><span class="dot d-r"></span><span class="dot d-y"></span><span class="dot d-g"></span></div>
+        <span class="code-filename">lesson_5_2_basics.py</span>
+      </div>
+      <div class="code-body">
 <span class="c-comment"># ─── CONCEPT 1: Variables ───────────────────────────────────────────</span>
 <span class="c-comment"># Think of variables like cells in Excel. Name them clearly.</span>
-<span class="c-var">ebitda</span> = <span class="c-num">4_200_000</span> <span class="c-comment"># Borrower EBITDA: $4.2M</span>
-<span class="c-var">total_debt</span> = <span class="c-num">15_000_000</span> <span class="c-comment"># Total debt outstanding</span>
-<span class="c-var">annual_interest</span> = <span class="c-num">750_000</span> <span class="c-comment"># Annual interest expense</span>
-<span class="c-var">capex</span> = <span class="c-num">380_000</span> <span class="c-comment"># Annual capex</span>
-<span class="c-var">cpltd</span> = <span class="c-num">500_000</span> <span class="c-comment"># Current portion of LTD</span>
+
+<span class="c-var">ebitda</span> = <span class="c-num">4_200_000</span>       <span class="c-comment"># Borrower EBITDA: $4.2M</span>
+<span class="c-var">total_debt</span> = <span class="c-num">15_000_000</span>   <span class="c-comment"># Total debt outstanding</span>
+<span class="c-var">annual_interest</span> = <span class="c-num">750_000</span>  <span class="c-comment"># Annual interest expense</span>
+<span class="c-var">capex</span> = <span class="c-num">380_000</span>           <span class="c-comment"># Annual capex</span>
+<span class="c-var">cpltd</span> = <span class="c-num">500_000</span>           <span class="c-comment"># Current portion of LTD</span>
+
 <span class="c-comment"># ─── CONCEPT 2: Calculations ────────────────────────────────────────</span>
+
 <span class="c-var">leverage</span> = <span class="c-var">total_debt</span> / <span class="c-var">ebitda</span>
 <span class="c-var">dscr</span> = <span class="c-var">ebitda</span> / (<span class="c-var">annual_interest</span> + <span class="c-var">cpltd</span>)
 <span class="c-var">fixed_charge_coverage</span> = (<span class="c-var">ebitda</span> - <span class="c-var">capex</span>) / (<span class="c-var">annual_interest</span> + <span class="c-var">cpltd</span>)
@@ -3711,15 +4267,17 @@ committee that values brevity and specificity.
 <span class="c-output"># Leverage:      3.57x</span>
 <span class="c-output"># DSCR:          3.36x</span>
 <span class="c-output"># FCC Ratio:     2.79x</span>
-</div>
-</div>
-<div class="code-block">
-<div class="code-header">
-<div class="code-dots"><span class="dot d-r"></span><span class="dot d-y"></span><span class="dot d-g"></span></div>
-<span class="code-filename">lesson_5_2_loops.py</span>
-</div>
-<div class="code-body">
+      </div>
+    </div>
+
+    <div class="code-block">
+      <div class="code-header">
+        <div class="code-dots"><span class="dot d-r"></span><span class="dot d-y"></span><span class="dot d-g"></span></div>
+        <span class="code-filename">lesson_5_2_loops.py</span>
+      </div>
+      <div class="code-body">
 <span class="c-comment"># ─── CONCEPT 3: Loops — Run analysis across your whole portfolio ─────</span>
+
 <span class="c-var">portfolio</span> = [
     {<span class="c-string">"name"</span>: <span class="c-string">"Acme Manufacturing"</span>,  <span class="c-string">"ebitda"</span>: <span class="c-num">4_200_000</span>, <span class="c-string">"debt"</span>: <span class="c-num">15_000_000</span>},
     {<span class="c-string">"name"</span>: <span class="c-string">"Riverside Logistics"</span>,  <span class="c-string">"ebitda"</span>: <span class="c-num">2_100_000</span>, <span class="c-string">"debt"</span>: <span class="c-num">9_500_000</span>},
@@ -3727,13 +4285,13 @@ committee that values brevity and specificity.
     {<span class="c-string">"name"</span>: <span class="c-string">"Coastal Distribution"</span>,  <span class="c-string">"ebitda"</span>: <span class="c-num">1_900_000</span>, <span class="c-string">"debt"</span>: <span class="c-num">10_200_000</span>},
 ]
 
-<span class="c-keyword">print</span>(<span class="c-string">f"{'Borrower':&lt;25} {'Leverage':&gt;10} {'Flag':&gt;12}"</span>)
+<span class="c-keyword">print</span>(<span class="c-string">f"{'Borrower':<25} {'Leverage':>10} {'Flag':>12}"</span>)
 <span class="c-keyword">print</span>(<span class="c-string">"-" * 50</span>)
 
 <span class="c-keyword">for</span> <span class="c-var">company</span> <span class="c-keyword">in</span> <span class="c-var">portfolio</span>:
     <span class="c-var">lev</span> = <span class="c-var">company</span>[<span class="c-string">"debt"</span>] / <span class="c-var">company</span>[<span class="c-string">"ebitda"</span>]
-    <span class="c-var">flag</span> = <span class="c-string">"⚠️  REVIEW"</span> <span class="c-keyword">if</span> <span class="c-var">lev</span> &gt; <span class="c-num">4.5</span> <span class="c-keyword">else</span> <span class="c-string">"✓ OK"</span>
-<span class="c-func">print</span>(<span class="c-string">f"{company['name']:&lt;25} {lev:&gt;9.2f}x {flag:&gt;12}"</span>)
+    <span class="c-var">flag</span> = <span class="c-string">"⚠️  REVIEW"</span> <span class="c-keyword">if</span> <span class="c-var">lev</span> > <span class="c-num">4.5</span> <span class="c-keyword">else</span> <span class="c-string">"✓ OK"</span>
+    <span class="c-func">print</span>(<span class="c-string">f"{company['name']:<25} {lev:>9.2f}x {flag:>12}"</span>)
 
 <span class="c-comment"># OUTPUT:</span>
 <span class="c-output"># Borrower                  Leverage         Flag</span>
@@ -3742,25 +4300,28 @@ committee that values brevity and specificity.
 <span class="c-output"># Riverside Logistics            4.52x    ⚠️  REVIEW</span>
 <span class="c-output"># Summit Healthcare              2.51x         ✓ OK</span>
 <span class="c-output"># Coastal Distribution           5.37x    ⚠️  REVIEW</span>
-</div>
-</div>
-</div>
-<!-- 5.3 PANDAS -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 5.3</p>
-<h2>Automating Excel with Pandas</h2>
-<p class="concept-body">
+      </div>
+    </div>
+  </div>
+
+  <!-- 5.3 PANDAS -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 5.3</p>
+    <h2>Automating Excel with Pandas</h2>
+    <p class="concept-body">
       Pandas is the Python library for working with spreadsheet-like data. Think of it as Excel with
       superpowers: it can process thousands of rows in milliseconds, run complex calculations automatically,
       and output formatted reports — with just a few lines of code.
     </p>
-<div class="code-block">
-<div class="code-header">
-<div class="code-dots"><span class="dot d-r"></span><span class="dot d-y"></span><span class="dot d-g"></span></div>
-<span class="code-filename">loan_tape_analysis.py</span>
-</div>
-<div class="code-body">
+
+    <div class="code-block">
+      <div class="code-header">
+        <div class="code-dots"><span class="dot d-r"></span><span class="dot d-y"></span><span class="dot d-g"></span></div>
+        <span class="code-filename">loan_tape_analysis.py</span>
+      </div>
+      <div class="code-body">
 <span class="c-keyword">import</span> <span class="c-var">pandas</span> <span class="c-keyword">as</span> <span class="c-var">pd</span>
+
 <span class="c-comment"># Load your loan tape from Excel (or CSV)</span>
 <span class="c-var">df</span> = <span class="c-var">pd</span>.<span class="c-func">read_excel</span>(<span class="c-string">"loan_tape_Q4.xlsx"</span>)
 
@@ -3770,8 +4331,9 @@ committee that values brevity and specificity.
 
 <span class="c-comment"># Flag credits needing review</span>
 <span class="c-var">df</span>[<span class="c-string">"status"</span>] = <span class="c-string">"OK"</span>
-<span class="c-var">df</span>.<span class="c-func">loc</span>[<span class="c-var">df</span>[<span class="c-string">"leverage"</span>] &gt; <span class="c-num">4.5</span>, <span class="c-string">"status"</span>] = <span class="c-string">"REVIEW: High Leverage"</span>
-<span class="c-var">df</span>.<span class="c-func">loc</span>[<span class="c-var">df</span>[<span class="c-string">"dscr"</span>] &lt; <span class="c-num">1.15</span>, <span class="c-string">"status"</span>] = <span class="c-string">"REVIEW: Low DSCR"</span>
+<span class="c-var">df</span>.<span class="c-func">loc</span>[<span class="c-var">df</span>[<span class="c-string">"leverage"</span>] > <span class="c-num">4.5</span>, <span class="c-string">"status"</span>] = <span class="c-string">"REVIEW: High Leverage"</span>
+<span class="c-var">df</span>.<span class="c-func">loc</span>[<span class="c-var">df</span>[<span class="c-string">"dscr"</span>] < <span class="c-num">1.15</span>, <span class="c-string">"status"</span>] = <span class="c-string">"REVIEW: Low DSCR"</span>
+
 <span class="c-comment"># Pull just the credits needing review</span>
 <span class="c-var">watchlist</span> = <span class="c-var">df</span>[<span class="c-var">df</span>[<span class="c-string">"status"</span>] != <span class="c-string">"OK"</span>]
 
@@ -3781,31 +4343,67 @@ committee that values brevity and specificity.
 
 <span class="c-comment"># This script runs in under 1 second on a portfolio of 500 loans.</span>
 <span class="c-comment"># The same task manually in Excel: 2–3 hours.</span>
-</div>
-</div>
-</div>
-<!-- 5.5 CLAUDE API -->
-<div class="concept-section">
-<p class="concept-lead">Lesson 5.5</p>
-<h2>Building Your First AI Tool</h2>
-<p class="concept-body">
+      </div>
+    </div>
+  </div>
+
+  <!-- 5.5 CLAUDE API -->
+  <div class="concept-section">
+    <p class="concept-lead">
+
+  <!-- LESSON 5.4 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 5.4</p>
+    <h2>Building Your First AI Tool with the Claude API</h2>
+    <p class="concept-body">
+      You’ll connect a simple Python script to an LLM and turn borrower inputs into a structured output —
+      like a memo summary, risk callouts, or covenant suggestions. The key is structure: define inputs and outputs.
+    </p>
+
+    <h3>Design the input/output first</h3>
+    <p class="concept-body">
+      Input: borrower name + industry + financials + deal structure + your questions.<br/>
+      Output: 1) Summary, 2) Strengths, 3) Risks, 4) Questions to ask, 5) Draft covenant package.
+    </p>
+
+    <div class="case-study">
+      <div class="case-study-label">Coding Lab</div>
+      <h3>Starter Prompt (copy/paste)</h3>
+      <p class="concept-body">
+        You are a commercial credit analyst. Produce structured output with headings:
+        Summary, Strengths, Risks, Questions, Covenants. Use only supplied numbers. If data is missing, say “Unknown.”
+      </p>
+    </div>
+
+    <p class="concept-body">
+      <strong>Security note:</strong> never paste client-identifiable data into an external API unless your bank’s policy permits it.
+      Use anonymized examples while learning.
+    </p>
+  </div>
+
+Lesson 5.5</p>
+    <h2>Building Your First AI Tool</h2>
+    <p class="concept-body">
       This is where everything comes together. We'll connect to the Claude API and build a tool
       that takes a borrower's financial data and returns a structured credit analysis narrative —
       the same output a junior analyst would produce, in 3 seconds.
     </p>
-<div class="callout">
-<strong>Before You Start:</strong> You'll need an Anthropic API key. Sign up at 
-      <a href="https://console.anthropic.com" target="_blank" rel="noopener noreferrer">console.anthropic.com</a> — you get $5 in free credits, which is more than enough for this lab.
+
+    <div class="callout">
+      <strong>Before You Start:</strong> You'll need an Anthropic API key. Sign up at 
+      console.anthropic.com — you get $5 in free credits, which is more than enough for this lab.
       Keep your API key secret and never commit it to GitHub.
     </div>
-<div class="code-block">
-<div class="code-header">
-<div class="code-dots"><span class="dot d-r"></span><span class="dot d-y"></span><span class="dot d-g"></span></div>
-<span class="code-filename">credit_analysis_agent.py</span>
-</div>
-<div class="code-body">
+
+    <div class="code-block">
+      <div class="code-header">
+        <div class="code-dots"><span class="dot d-r"></span><span class="dot d-y"></span><span class="dot d-g"></span></div>
+        <span class="code-filename">credit_analysis_agent.py</span>
+      </div>
+      <div class="code-body">
 <span class="c-keyword">import</span> <span class="c-var">anthropic</span>
 <span class="c-keyword">import</span> <span class="c-var">os</span>
+
 <span class="c-comment"># Initialize the client (reads API key from environment variable)</span>
 <span class="c-var">client</span> = <span class="c-var">anthropic</span>.<span class="c-func">Anthropic</span>(
     <span class="c-var">api_key</span>=<span class="c-var">os</span>.<span class="c-func">environ</span>.<span class="c-func">get</span>(<span class="c-string">"ANTHROPIC_API_KEY"</span>)
@@ -3846,6 +4444,7 @@ Please provide:
 
 Tone: direct, professional, credit committee-ready.
 """</span>
+
 <span class="c-comment"># Call the API</span>
 <span class="c-var">response</span> = <span class="c-var">client</span>.<span class="c-var">messages</span>.<span class="c-func">create</span>(
     <span class="c-var">model</span>=<span class="c-string">"claude-opus-4-6"</span>,
@@ -3856,170 +4455,218 @@ Tone: direct, professional, credit committee-ready.
 <span class="c-comment"># Print the output</span>
 <span class="c-func">print</span>(<span class="c-var">response</span>.<span class="c-var">content</span>[<span class="c-num">0</span>].<span class="c-var">text</span>)
       </div>
-</div>
-</div>
-<!-- SKILL LADDER -->
-<div class="concept-section">
-<p class="concept-lead">Your Learning Path</p>
-<h2>The Banker's Coding Skill Ladder</h2>
-<p class="concept-body">Follow this progression. Each rung builds on the last, and each has a concrete deliverable you can show colleagues or clients.</p>
-<div class="skill-ladder">
-<div class="skill-rung rung-1">
-<span class="rung-week">Week 1–2</span>
-<div class="rung-content">
-<h4>Python Foundations</h4>
-<p>Variables, calculations, loops, functions. Build your first leverage calculator.</p>
-</div>
-<div class="rung-outcome">Deliverable:<br/>Portfolio ratio calculator</div>
-</div>
-<div class="skill-rung rung-2">
-<span class="rung-week">Week 3–4</span>
-<div class="rung-content">
-<h4>Excel Automation with Pandas</h4>
-<p>Read Excel files, run calculations, export results. Automate your most painful spreadsheet.</p>
-</div>
-<div class="rung-outcome">Deliverable:<br/>Automated watchlist report</div>
-</div>
-<div class="skill-rung rung-3">
-<span class="rung-week">Week 5–6</span>
-<div class="rung-content">
-<h4>API Calls &amp; Live Data</h4>
-<p>Pull Treasury rates, FRED economic data, and company financials directly into Python.</p>
-</div>
-<div class="rung-outcome">Deliverable:<br/>Live rate environment dashboard</div>
-</div>
-<div class="skill-rung rung-4">
-<span class="rung-week">Week 7–8</span>
-<div class="rung-content">
-<h4>AI Integration</h4>
-<p>Connect to Claude API. Build your first AI-powered banking tool.</p>
-</div>
-<div class="rung-outcome">Deliverable:<br/>AI credit analysis tool</div>
-</div>
-<div class="skill-rung rung-5">
-<span class="rung-week">Week 9–10</span>
-<div class="rung-content">
-<h4>Web Deployment</h4>
-<p>Convert your Python tool into a simple web app deployable on GitHub Pages.</p>
-</div>
-<div class="rung-outcome">Deliverable:<br/>Live client-facing tool</div>
-</div>
-</div>
-</div>
-<!-- TOOLS -->
-<div class="concept-section">
-<p class="concept-lead">Your Toolkit</p>
-<h2>The Four Tools You Need</h2>
-<div class="tools-grid-mini">
-<div class="tool-mini">
-<div class="tool-mini-header">
-<span class="tool-mini-icon">🐍</span>
-<span class="tool-mini-name">Python + Jupyter</span>
-</div>
-<p>Your primary coding environment. Jupyter notebooks let you run code in cells — perfect for learning and for presenting analysis interactively. Free, open-source, runs on any computer.</p>
-</div>
-<div class="tool-mini">
-<div class="tool-mini-header">
-<span class="tool-mini-icon">🐙</span>
-<span class="tool-mini-name">GitHub</span>
-</div>
-<p>Where your code lives. GitHub is the industry standard for version control — and GitHub Pages lets you host simple web tools for free, instantly. Your portfolio of tools lives here.</p>
-</div>
-<div class="tool-mini">
-<div class="tool-mini-header">
-<span class="tool-mini-icon">🤖</span>
-<span class="tool-mini-name">Claude (AI Pair Programmer)</span>
-</div>
-<p>Use Claude as a coding tutor and debugging partner. Paste your error message, ask it to explain your code, or ask it to write the next function. AI makes learning to code 3x faster.</p>
-</div>
-<div class="tool-mini">
-<div class="tool-mini-header">
-<span class="tool-mini-icon">📊</span>
-<span class="tool-mini-name">Pandas + openpyxl</span>
-</div>
-<p>The two Python libraries you'll use constantly: Pandas for data manipulation and analysis, openpyxl for reading and writing Excel files. Both install in one command.</p>
-</div>
-</div>
-</div>
-<!-- CAPSTONE -->
-<div class="final-project">
-<p class="final-project-label">// Module 5.6 — Capstone Project</p>
-<h3>Build &amp; Deploy a Client-Facing Tool</h3>
-<p>
+    </div>
+  </div>
+
+  <!-- SKILL LADDER -->
+  <div class="concept-section">
+    <p class="concept-lead">Your Learning Path</p>
+    <h2>The Banker's Coding Skill Ladder</h2>
+    <p class="concept-body">Follow this progression. Each rung builds on the last, and each has a concrete deliverable you can show colleagues or clients.</p>
+
+    <div class="skill-ladder">
+      <div class="skill-rung rung-1">
+        <span class="rung-week">Week 1–2</span>
+        <div class="rung-content">
+          <h4>Python Foundations</h4>
+          <p>Variables, calculations, loops, functions. Build your first leverage calculator.</p>
+        </div>
+        <div class="rung-outcome">Deliverable:<br>Portfolio ratio calculator</div>
+      </div>
+      <div class="skill-rung rung-2">
+        <span class="rung-week">Week 3–4</span>
+        <div class="rung-content">
+          <h4>Excel Automation with Pandas</h4>
+          <p>Read Excel files, run calculations, export results. Automate your most painful spreadsheet.</p>
+        </div>
+        <div class="rung-outcome">Deliverable:<br>Automated watchlist report</div>
+      </div>
+      <div class="skill-rung rung-3">
+        <span class="rung-week">Week 5–6</span>
+        <div class="rung-content">
+          <h4>API Calls & Live Data</h4>
+          <p>Pull Treasury rates, FRED economic data, and company financials directly into Python.</p>
+        </div>
+        <div class="rung-outcome">Deliverable:<br>Live rate environment dashboard</div>
+      </div>
+      <div class="skill-rung rung-4">
+        <span class="rung-week">Week 7–8</span>
+        <div class="rung-content">
+          <h4>AI Integration</h4>
+          <p>Connect to Claude API. Build your first AI-powered banking tool.</p>
+        </div>
+        <div class="rung-outcome">Deliverable:<br>AI credit analysis tool</div>
+      </div>
+      <div class="skill-rung rung-5">
+        <span class="rung-week">Week 9–10</span>
+        <div class="rung-content">
+          <h4>Web Deployment</h4>
+          <p>Convert your Python tool into a simple web app deployable on GitHub Pages.</p>
+        </div>
+        <div class="rung-outcome">Deliverable:<br>Live client-facing tool</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOOLS -->
+  <div class="concept-section">
+    <p class="concept-lead">Your Toolkit</p>
+    <h2>The Four Tools You Need</h2>
+
+    <div class="tools-grid-mini">
+      <div class="tool-mini">
+        <div class="tool-mini-header">
+          <span class="tool-mini-icon">🐍</span>
+          <span class="tool-mini-name">Python + Jupyter</span>
+        </div>
+        <p>Your primary coding environment. Jupyter notebooks let you run code in cells — perfect for learning and for presenting analysis interactively. Free, open-source, runs on any computer.</p>
+      </div>
+      <div class="tool-mini">
+        <div class="tool-mini-header">
+          <span class="tool-mini-icon">🐙</span>
+          <span class="tool-mini-name">GitHub</span>
+        </div>
+        <p>Where your code lives. GitHub is the industry standard for version control — and GitHub Pages lets you host simple web tools for free, instantly. Your portfolio of tools lives here.</p>
+      </div>
+      <div class="tool-mini">
+        <div class="tool-mini-header">
+          <span class="tool-mini-icon">🤖</span>
+          <span class="tool-mini-name">Claude (AI Pair Programmer)</span>
+        </div>
+        <p>Use Claude as a coding tutor and debugging partner. Paste your error message, ask it to explain your code, or ask it to write the next function. AI makes learning to code 3x faster.</p>
+      </div>
+      <div class="tool-mini">
+        <div class="tool-mini-header">
+          <span class="tool-mini-icon">📊</span>
+          <span class="tool-mini-name">Pandas + openpyxl</span>
+        </div>
+        <p>The two Python libraries you'll use constantly: Pandas for data manipulation and analysis, openpyxl for reading and writing Excel files. Both install in one command.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAPSTONE -->
+  <div class="final-project">
+    <p class="final-project-label">// Module 5.6 — Capstone Project</p>
+    <h3>Build & Deploy a Client-Facing Tool</h3>
+    <p>
       Your capstone project is to build a simple, interactive web tool that a client could actually use.
       It should take a few inputs, run a calculation or analysis, and display a clear output.
       You'll deploy it on GitHub Pages so it has a real URL you can share.
     </p>
-<p>
+    <p>
       Choose one of the following project tracks, or propose your own:
     </p>
-<div class="deliverables">
-<div class="deliverable-item">📐 <strong style="color:var(--text-primary)">Loan Sizing Calculator</strong> — Enter EBITDA, max leverage, and rate; output max loan amount, payment, and coverage ratios</div>
-<div class="deliverable-item">📈 <strong style="color:var(--text-primary)">Rate Scenario Analyzer</strong> — Model how rising rates affect a borrower's DSCR across 3 rate scenarios</div>
-<div class="deliverable-item">🏭 <strong style="color:var(--text-primary)">Industry Benchmark Tool</strong> — Enter industry and revenue; output peer benchmarks for key credit ratios</div>
-<div class="deliverable-item">🤖 <strong style="color:var(--text-primary)">AI Financial Q&amp;A</strong> — Upload a financial statement PDF; get instant analysis powered by Claude API</div>
-</div>
-</div>
-<!-- RESOURCES -->
-<div class="concept-section">
-<p class="concept-lead">Supplemental Resources</p>
-<h2>Keep Learning</h2>
-<div class="resources-grid">
-<div class="resource-card">
-<p class="resource-type rt-free">Free</p>
-<h5>Python for Everybody (Coursera)</h5>
-<p>University of Michigan's Python course — the best beginner resource online. Audit it for free.</p>
-</div>
-<div class="resource-card">
-<p class="resource-type rt-free">Free</p>
-<h5>Pandas Documentation</h5>
-<p><a href="https://pandas.pydata.org" target="_blank" rel="noopener noreferrer">pandas.pydata.org</a> — the official docs are excellent. Use the "Getting Started" tutorial first, then the cookbook for banking tasks.</p>
-</div>
-<div class="resource-card">
-<p class="resource-type rt-free">Free</p>
-<h5>Anthropic Docs</h5>
-<p><a href="https://docs.anthropic.com" target="_blank" rel="noopener noreferrer">docs.anthropic.com</a> — the full Claude API documentation with Python examples. The prompt engineering guide is essential reading.</p>
-</div>
-<div class="resource-card">
-<p class="resource-type rt-free">Free</p>
-<h5>GitHub Learning Lab</h5>
-<p><a href="https://skills.github.com" target="_blank" rel="noopener noreferrer">skills.github.com</a> — interactive tutorials for Git basics, GitHub Pages, and more. Complete the "Introduction to GitHub" course first.</p>
-</div>
-<div class="resource-card">
-<p class="resource-type rt-paid">Book</p>
-<h5>Python for Finance (O'Reilly)</h5>
-<p>By Yves Hilpisch. Goes deeper on quantitative finance applications. Good for bankers who want to build more sophisticated models.</p>
-</div>
-<div class="resource-card">
-<p class="resource-type rt-free">Community</p>
-<h5>r/learnpython</h5>
-<p>The best community for beginner Python questions. Post your code, ask your question, get answers from experienced developers within hours.</p>
-</div>
-</div>
-</div>
-<!-- COMPLETION BANNER -->
-<div class="completion-banner">
-<h3>🎉 You've Completed <em>FinTech Frontier</em></h3>
-<p>
+    <div class="deliverables">
+      <div class="deliverable-item">📐 <strong style="color:var(--text-primary)">Loan Sizing Calculator</strong> — Enter EBITDA, max leverage, and rate; output max loan amount, payment, and coverage ratios</div>
+      <div class="deliverable-item">📈 <strong style="color:var(--text-primary)">Rate Scenario Analyzer</strong> — Model how rising rates affect a borrower's DSCR across 3 rate scenarios</div>
+      <div class="deliverable-item">🏭 <strong style="color:var(--text-primary)">Industry Benchmark Tool</strong> — Enter industry and revenue; output peer benchmarks for key credit ratios</div>
+      <div class="deliverable-item">🤖 <strong style="color:var(--text-primary)">AI Financial Q&A</strong> — Upload a financial statement PDF; get instant analysis powered by Claude API</div>
+    </div>
+  </div>
+
+  <!-- RESOURCES -->
+  <div class="concept-section">
+    <p class="concept-lead">Supplemental Resources</p>
+    <h2>Keep Learning</h2>
+
+    <div class="resources-grid">
+      <div class="resource-card">
+        <p class="resource-type rt-free">Free</p>
+        <h5>Python for Everybody (Coursera)</h5>
+        <p>University of Michigan's Python course — the best beginner resource online. Audit it for free.</p>
+      </div>
+      <div class="resource-card">
+        <p class="resource-type rt-free">Free</p>
+        <h5>Pandas Documentation</h5>
+        <p>pandas.pydata.org — the official docs are excellent. Use the "Getting Started" tutorial first, then the cookbook for banking tasks.</p>
+      </div>
+      <div class="resource-card">
+        <p class="resource-type rt-free">Free</p>
+        <h5>Anthropic Docs</h5>
+        <p>docs.anthropic.com — the full Claude API documentation with Python examples. The prompt engineering guide is essential reading.</p>
+      </div>
+      <div class="resource-card">
+        <p class="resource-type rt-free">Free</p>
+        <h5>GitHub Learning Lab</h5>
+        <p>skills.github.com — interactive tutorials for Git basics, GitHub Pages, and more. Complete the "Introduction to GitHub" course first.</p>
+      </div>
+      <div class="resource-card">
+        <p class="resource-type rt-paid">Book</p>
+        <h5>Python for Finance (O'Reilly)</h5>
+        <p>By Yves Hilpisch. Goes deeper on quantitative finance applications. Good for bankers who want to build more sophisticated models.</p>
+      </div>
+      <div class="resource-card">
+        <p class="resource-type rt-free">Community</p>
+        <h5>r/learnpython</h5>
+        <p>The best community for beginner Python questions. Post your code, ask your question, get answers from experienced developers within hours.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPLETION BANNER -->
+  <div class="completion-banner">
+    <h3>🎉 You've Completed <em>FinTech Frontier</em></h3>
+    <p>
       You've covered the fintech landscape, AI agents in banking, practical AI workflows,
       strategic frameworks, and the foundations of coding. The bankers who master these skills
       in the next 18 months will define the next generation of the industry.
     </p>
-<a class="btn-gold" href="#top">← Back to All Modules</a>
-</div>
-<div class="takeaways">
+    <a href="#top" class="btn-gold">← Back to All Modules</a>
+  </div>
+
+  <div class="takeaways">
+    
+
+  <!-- LESSON 5.6 -->
+  <div class="concept-section">
+    <p class="concept-lead">Lesson 5.6</p>
+    <h2>Capstone: Deploy a Client-Facing Tool on GitHub Pages</h2>
+    <p class="concept-body">
+      Build and publish a simple interactive tool: an industry benchmark calculator, a loan sizing tool,
+      a DSCR sensitivity table, or a rate scenario analyzer. The deliverable is a URL you can share.
+    </p>
+
+    <h3>Capstone Options</h3>
+    <p class="concept-body">
+      • Loan sizing tool (given EBITDA + leverage cap → max debt)<br/>
+      • Rate scenario tool (SOFR + spread → interest expense + DSCR impact)<br/>
+      • Covenant headroom calculator<br/>
+      • Simple “client prep” checklist generator
+    </p>
+
+    <div class="case-study">
+      <div class="case-study-label">Deliverable</div>
+      <h3>Publish Checklist</h3>
+      <p class="concept-body">
+        1) One-page HTML tool (inputs + output)<br/>
+        2) Clear instructions on the page<br/>
+        3) No secrets committed (no API keys)<br/>
+        4) Deployed on GitHub Pages<br/>
+        5) Share the link
+      </p>
+    </div>
+  </div>
+
 <h3>Module 5 — Key Takeaways</h3>
-<div class="takeaway-item">You don't need to become a software engineer — you need just enough Python to automate your workflow and build simple tools. That's achievable in 10 weeks.</div>
-<div class="takeaway-item">Pandas is your most powerful Excel replacement. A 500-loan portfolio analysis that takes 3 hours in Excel takes 3 seconds in Python.</div>
-<div class="takeaway-item">The Claude API lets you embed sophisticated AI analysis into any Python workflow — loan memos, portfolio reviews, client briefings — with fewer than 20 lines of code.</div>
-<div class="takeaway-item">GitHub is your portfolio. Every tool you build, every script you write — it lives there, it's shareable, and it shows colleagues and clients that you take technology seriously.</div>
-<div class="takeaway-item">Use AI as your coding tutor. Ask Claude to explain errors, write functions, and review your code. You'll learn 3x faster than learning alone.</div>
+    <div class="takeaway-item">You don't need to become a software engineer — you need just enough Python to automate your workflow and build simple tools. That's achievable in 10 weeks.</div>
+    <div class="takeaway-item">Pandas is your most powerful Excel replacement. A 500-loan portfolio analysis that takes 3 hours in Excel takes 3 seconds in Python.</div>
+    <div class="takeaway-item">The Claude API lets you embed sophisticated AI analysis into any Python workflow — loan memos, portfolio reviews, client briefings — with fewer than 20 lines of code.</div>
+    <div class="takeaway-item">GitHub is your portfolio. Every tool you build, every script you write — it lives there, it's shareable, and it shows colleagues and clients that you take technology seriously.</div>
+    <div class="takeaway-item">Use AI as your coding tutor. Ask Claude to explain errors, write functions, and review your code. You'll learn 3x faster than learning alone.</div>
+  </div>
+
+  <div class="module-nav">
+    <a href="#module4" class="nav-btn">← Module 4: Banks & Fintech Strategy</a>
+    <a href="#top" class="nav-btn home">🏠 Back to Course Home</a>
+  </div>
+
 </div>
-<div class="module-nav">
-<a class="nav-btn" href="#module4">← Module 4: Banks &amp; Fintech Strategy</a>
-<a class="nav-btn home" href="#top">🏠 Back to Course Home</a>
-</div>
-</div></section><script>const observer = new IntersectionObserver((entries) => {
+
+</section>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.style.opacity = '1';
@@ -4033,4 +4680,7 @@ Tone: direct, professional, credit committee-ready.
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.5s ease, transform 0.5s ease, background 0.3s, border-color 0.2s';
     observer.observe(el);
-  });</script></body></html>
+  });
+</script>
+</body>
+</html>
